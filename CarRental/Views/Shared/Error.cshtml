@@ -1,0 +1,12 @@
+﻿@model Projekt_strona.Models.ErrorViewModel
+@{
+    ViewData["Title"] = "Błąd";
+}
+
+<h1>Błąd</h1>
+<p>Wystąpił problem. Spróbuj ponownie później.</p>
+@if (Model.ShowRequestId)
+{
+    <p><strong>ID żądania:</strong> @Model.RequestId</p>
+}
+<a asp-controller="Cars" asp-action="Index">Wróć do strony głównej</a>

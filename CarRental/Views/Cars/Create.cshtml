@@ -1,0 +1,31 @@
+﻿@model Projekt_strona.Models.Car
+
+@{
+    ViewData["Title"] = "Dodaj samochód";
+}
+
+<h1>Dodaj nowy samochód</h1>
+
+<form asp-action="Create" method="post">
+    <div>
+        <label asp-for="Make">Marka:</label>
+        <input asp-for="Make" class="form-input" />
+        <span asp-validation-for="Make" class="error"></span>
+    </div>
+    <div>
+        <label asp-for="Model">Model:</label>
+        <input asp-for="Model" class="form-input" />
+        <span asp-validation-for="Model" class="error"></span>
+    </div>
+    <div>
+        <label asp-for="Year">Rok:</label>
+        <input asp-for="Year" class="form-input" type="number" />
+        <span asp-validation-for="Year" class="error"></span>
+    </div>
+    <div>
+        <label asp-for="IsAvailable">Dostępny:</label>
+        <input asp-for="IsAvailable" type="checkbox" />
+    </div>
+    <button type="submit" class="details-link">Dodaj</button>
+    <a asp-action="Index" class="details-link">Wróć</a>
+</form>

@@ -1,0 +1,124 @@
+/* Podstawowe style */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0f7fa; /* Jasny b³êkit t³a */
+}
+
+/* Nag³ówek */
+.header {
+    background-color: #ff5722; /* Pomarañczowy */
+    padding: 10px;
+}
+
+.navbar {
+    display: flex;
+    gap: 20px;
+}
+
+    .navbar a {
+        color: #fff; /* Bia³y tekst */
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+        .navbar a:hover {
+            color: #ffe0b2; /* Jasny pomarañczowy przy najechaniu */
+        }
+
+/* G³ówna treœæ */
+.main-content {
+    padding: 20px;
+    background-color: #fff; /* Bia³y */
+    min-height: 80vh;
+}
+
+h1 {
+    color: #d81b60; /* Ró¿owy */
+}
+
+p {
+    color: #455a64; /* Ciemny szary */
+}
+
+/* Lista samochodów */
+.car-list {
+    list-style: none;
+    padding: 0;
+}
+
+.car-item {
+    background-color: #c8e6c9; /* Jasny zielony */
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+.availability.available {
+    color: #2e7d32; /* Zielony */
+    font-weight: bold;
+}
+
+.availability.unavailable {
+    color: #c62828; /* Czerwony */
+    font-weight: bold;
+}
+
+/* Brak samochodów */
+.no-cars {
+    color: #f57c00; /* Pomarañczowy */
+    font-style: italic;
+}
+
+/* Linki i przyciski */
+.details-link {
+    display: inline-block;
+    padding: 8px 15px;
+    background-color: #0288d1; /* Niebieski */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 5px;
+    border: none; /* Dla button */
+    cursor: pointer;
+}
+
+    .details-link:hover {
+        background-color: #0277bd; /* Ciemniejszy niebieski */
+    }
+
+.delete-btn {
+    background-color: #c62828; /* Czerwony dla usuwania */
+}
+
+    .delete-btn:hover {
+        background-color: #b71c1c; /* Ciemniejszy czerwony */
+    }
+
+/* Formularze */
+form div {
+    margin: 10px 0;
+}
+
+.form-input {
+    padding: 5px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.error {
+    color: #c62828; /* Czerwony dla b³êdów */
+}
+
+/* Stopka */
+.footer {
+    background-color: #512da8; /* Fioletowy */
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

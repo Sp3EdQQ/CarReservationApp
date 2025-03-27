@@ -1,0 +1,396 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Barto\\source\\repos\\AspNetDemoApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|WebAppActions\\Projekt_strona.csproj|c:\\users\\barto\\source\\repos\\aspnetdemoapp\\webappactions\\controllers\\carscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|WebAppActions\\Projekt_strona.csproj|solutionrelative:webappactions\\controllers\\carscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|WebAppActions\\Projekt_strona.csproj|c:\\users\\barto\\source\\repos\\aspnetdemoapp\\webappactions\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|WebAppActions\\Projekt_strona.csproj|solutionrelative:webappactions\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|WebAppActions\\Projekt_strona.csproj|c:\\users\\barto\\source\\repos\\aspnetdemoapp\\webappactions\\repositories\\carrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|WebAppActions\\Projekt_strona.csproj|solutionrelative:webappactions\\repositories\\carrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|WebAppActions\\Projekt_strona.csproj|c:\\users\\barto\\source\\repos\\aspnetdemoapp\\webappactions\\repositories\\icarrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|WebAppActions\\Projekt_strona.csproj|solutionrelative:webappactions\\repositories\\icarrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|WebAppActions\\Projekt_strona.csproj|c:\\users\\barto\\source\\repos\\aspnetdemoapp\\webappactions\\data\\carrentalscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|WebAppActions\\Projekt_strona.csproj|solutionrelative:webappactions\\data\\carrentalscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|WebAppActions\\Projekt_strona.csproj|c:\\users\\barto\\source\\repos\\aspnetdemoapp\\webappactions\\projekt_strona.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|WebAppActions\\Projekt_strona.csproj|solutionrelative:webappactions\\projekt_strona.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|WebAppActions\\Projekt_strona.csproj|c:\\users\\barto\\source\\repos\\aspnetdemoapp\\webappactions\\models\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|WebAppActions\\Projekt_strona.csproj|solutionrelative:webappactions\\models\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|WebAppActions\\Projekt_strona.csproj|c:\\users\\barto\\source\\repos\\aspnetdemoapp\\webappactions\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|WebAppActions\\Projekt_strona.csproj|solutionrelative:webappactions\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|WebAppActions\\Projekt_strona.csproj|c:\\users\\barto\\source\\repos\\aspnetdemoapp\\webappactions\\views\\cars\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|WebAppActions\\Projekt_strona.csproj|solutionrelative:webappactions\\views\\cars\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|WebAppActions\\Projekt_strona.csproj|c:\\users\\barto\\source\\repos\\aspnetdemoapp\\webappactions\\models\\rental.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|WebAppActions\\Projekt_strona.csproj|solutionrelative:webappactions\\models\\rental.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|WebAppActions\\Projekt_strona.csproj|c:\\users\\barto\\source\\repos\\aspnetdemoapp\\webappactions\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|WebAppActions\\Projekt_strona.csproj|solutionrelative:webappactions\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|WebAppActions\\Projekt_strona.csproj|c:\\users\\barto\\source\\repos\\aspnetdemoapp\\webappactions\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|WebAppActions\\Projekt_strona.csproj|solutionrelative:webappactions\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|WebAppActions\\Projekt_strona.csproj|c:\\users\\barto\\source\\repos\\aspnetdemoapp\\webappactions\\migrations\\carrentalscontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|WebAppActions\\Projekt_strona.csproj|solutionrelative:webappactions\\migrations\\carrentalscontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|WebAppActions\\Projekt_strona.csproj|c:\\users\\barto\\source\\repos\\aspnetdemoapp\\webappactions\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|WebAppActions\\Projekt_strona.csproj|solutionrelative:webappactions\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|WebAppActions\\Projekt_strona.csproj|c:\\users\\barto\\source\\repos\\aspnetdemoapp\\webappactions\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|WebAppActions\\Projekt_strona.csproj|solutionrelative:webappactions\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|WebAppActions\\Projekt_strona.csproj|c:\\users\\barto\\source\\repos\\aspnetdemoapp\\webappactions\\projekt_strona.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|WebAppActions\\Projekt_strona.csproj|solutionrelative:webappactions\\projekt_strona.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|WebAppActions\\Projekt_strona.csproj|c:\\users\\barto\\source\\repos\\aspnetdemoapp\\webappactions\\views\\cars\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|WebAppActions\\Projekt_strona.csproj|solutionrelative:webappactions\\views\\cars\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|WebAppActions\\Projekt_strona.csproj|c:\\users\\barto\\source\\repos\\aspnetdemoapp\\webappactions\\views\\cars\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|WebAppActions\\Projekt_strona.csproj|solutionrelative:webappactions\\views\\cars\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|WebAppActions\\Projekt_strona.csproj|c:\\users\\barto\\source\\repos\\aspnetdemoapp\\webappactions\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|WebAppActions\\Projekt_strona.csproj|solutionrelative:webappactions\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|WebAppActions\\Projekt_strona.csproj|c:\\users\\barto\\source\\repos\\aspnetdemoapp\\webappactions\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|WebAppActions\\Projekt_strona.csproj|solutionrelative:webappactions\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|WebAppActions\\Projekt_strona.csproj|c:\\users\\barto\\source\\repos\\aspnetdemoapp\\webappactions\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|WebAppActions\\Projekt_strona.csproj|solutionrelative:webappactions\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|WebAppActions\\Projekt_strona.csproj|c:\\users\\barto\\source\\repos\\aspnetdemoapp\\webappactions\\views\\cars\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|WebAppActions\\Projekt_strona.csproj|solutionrelative:webappactions\\views\\cars\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ICarRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Barto\\source\\repos\\AspNetDemoApp\\WebAppActions\\Repositories\\ICarRepository.cs",
+              "RelativeDocumentMoniker": "WebAppActions\\Repositories\\ICarRepository.cs",
+              "ToolTip": "C:\\Users\\Barto\\source\\repos\\AspNetDemoApp\\WebAppActions\\Repositories\\ICarRepository.cs",
+              "RelativeToolTip": "WebAppActions\\Repositories\\ICarRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T13:36:42.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Projekt_strona",
+              "DocumentMoniker": "C:\\Users\\Barto\\Source\\Repos\\AspNetDemoApp\\WebAppActions\\Projekt_strona.csproj",
+              "RelativeDocumentMoniker": "WebAppActions\\Projekt_strona.csproj",
+              "ToolTip": "C:\\Users\\Barto\\Source\\Repos\\AspNetDemoApp\\WebAppActions\\Projekt_strona.csproj",
+              "RelativeToolTip": "WebAppActions\\Projekt_strona.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-27T13:30:28.894Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Barto\\source\\repos\\AspNetDemoApp\\WebAppActions\\Program.cs",
+              "RelativeDocumentMoniker": "WebAppActions\\Program.cs",
+              "ToolTip": "C:\\Users\\Barto\\source\\repos\\AspNetDemoApp\\WebAppActions\\Program.cs",
+              "RelativeToolTip": "WebAppActions\\Program.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAkwCMAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T11:33:54.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CarsController.cs",
+              "DocumentMoniker": "C:\\Users\\Barto\\source\\repos\\AspNetDemoApp\\WebAppActions\\Controllers\\CarsController.cs",
+              "RelativeDocumentMoniker": "WebAppActions\\Controllers\\CarsController.cs",
+              "ToolTip": "C:\\Users\\Barto\\source\\repos\\AspNetDemoApp\\WebAppActions\\Controllers\\CarsController.cs",
+              "RelativeToolTip": "WebAppActions\\Controllers\\CarsController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAkwEYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T11:20:34.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CarRentalsContext.cs",
+              "DocumentMoniker": "C:\\Users\\Barto\\Source\\Repos\\AspNetDemoApp\\WebAppActions\\Data\\CarRentalsContext.cs",
+              "RelativeDocumentMoniker": "WebAppActions\\Data\\CarRentalsContext.cs",
+              "ToolTip": "C:\\Users\\Barto\\Source\\Repos\\AspNetDemoApp\\WebAppActions\\Data\\CarRentalsContext.cs",
+              "RelativeToolTip": "WebAppActions\\Data\\CarRentalsContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T11:31:50.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CarRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Barto\\source\\repos\\AspNetDemoApp\\WebAppActions\\Repositories\\CarRepository.cs",
+              "RelativeDocumentMoniker": "WebAppActions\\Repositories\\CarRepository.cs",
+              "ToolTip": "C:\\Users\\Barto\\source\\repos\\AspNetDemoApp\\WebAppActions\\Repositories\\CarRepository.cs",
+              "RelativeToolTip": "WebAppActions\\Repositories\\CarRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T13:50:28.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Barto\\source\\repos\\AspNetDemoApp\\WebAppActions\\Views\\Cars\\Create.cshtml",
+              "RelativeDocumentMoniker": "WebAppActions\\Views\\Cars\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Barto\\source\\repos\\AspNetDemoApp\\WebAppActions\\Views\\Cars\\Create.cshtml",
+              "RelativeToolTip": "WebAppActions\\Views\\Cars\\Create.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAgAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-21T11:29:59.414Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Rental.cs",
+              "DocumentMoniker": "C:\\Users\\Barto\\source\\repos\\AspNetDemoApp\\WebAppActions\\Models\\Rental.cs",
+              "RelativeDocumentMoniker": "WebAppActions\\Models\\Rental.cs",
+              "ToolTip": "C:\\Users\\Barto\\source\\repos\\AspNetDemoApp\\WebAppActions\\Models\\Rental.cs",
+              "RelativeToolTip": "WebAppActions\\Models\\Rental.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T11:32:00.415Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Barto\\source\\repos\\AspNetDemoApp\\WebAppActions\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "WebAppActions\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\Barto\\source\\repos\\AspNetDemoApp\\WebAppActions\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "WebAppActions\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T11:34:48.553Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Barto\\source\\repos\\AspNetDemoApp\\WebAppActions\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WebAppActions\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Barto\\source\\repos\\AspNetDemoApp\\WebAppActions\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WebAppActions\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-21T11:20:38.033Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Car.cs",
+              "DocumentMoniker": "C:\\Users\\Barto\\source\\repos\\AspNetDemoApp\\WebAppActions\\Models\\Car.cs",
+              "RelativeDocumentMoniker": "WebAppActions\\Models\\Car.cs",
+              "ToolTip": "C:\\Users\\Barto\\source\\repos\\AspNetDemoApp\\WebAppActions\\Models\\Car.cs",
+              "RelativeToolTip": "WebAppActions\\Models\\Car.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T11:31:38.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\Barto\\source\\repos\\AspNetDemoApp\\WebAppActions\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "WebAppActions\\Models\\Customer.cs",
+              "ToolTip": "C:\\Users\\Barto\\source\\repos\\AspNetDemoApp\\WebAppActions\\Models\\Customer.cs",
+              "RelativeToolTip": "WebAppActions\\Models\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T11:31:52.409Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CarRentalsContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\Barto\\source\\repos\\AspNetDemoApp\\WebAppActions\\Migrations\\CarRentalsContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "WebAppActions\\Migrations\\CarRentalsContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\Barto\\source\\repos\\AspNetDemoApp\\WebAppActions\\Migrations\\CarRentalsContextModelSnapshot.cs",
+              "RelativeToolTip": "WebAppActions\\Migrations\\CarRentalsContextModelSnapshot.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T11:35:53.627Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Barto\\source\\repos\\AspNetDemoApp\\WebAppActions\\appsettings.json",
+              "RelativeDocumentMoniker": "WebAppActions\\appsettings.json",
+              "ToolTip": "C:\\Users\\Barto\\source\\repos\\AspNetDemoApp\\WebAppActions\\appsettings.json",
+              "RelativeToolTip": "WebAppActions\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-21T11:35:13.596Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Projekt_strona",
+              "DocumentMoniker": "C:\\Users\\Barto\\Source\\Repos\\AspNetDemoApp\\WebAppActions\\Projekt_strona.csproj",
+              "RelativeDocumentMoniker": "WebAppActions\\Projekt_strona.csproj",
+              "ToolTip": "C:\\Users\\Barto\\Source\\Repos\\AspNetDemoApp\\WebAppActions\\Projekt_strona.csproj",
+              "RelativeToolTip": "WebAppActions\\Projekt_strona.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-21T11:34:19.839Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\Barto\\source\\repos\\AspNetDemoApp\\WebAppActions\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "WebAppActions\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\Barto\\source\\repos\\AspNetDemoApp\\WebAppActions\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "WebAppActions\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-21T11:20:55.586Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\Barto\\source\\repos\\AspNetDemoApp\\WebAppActions\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "WebAppActions\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\Barto\\source\\repos\\AspNetDemoApp\\WebAppActions\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "WebAppActions\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-21T11:20:53.925Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\Barto\\source\\repos\\AspNetDemoApp\\WebAppActions\\Views\\Cars\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "WebAppActions\\Views\\Cars\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\Barto\\source\\repos\\AspNetDemoApp\\WebAppActions\\Views\\Cars\\Privacy.cshtml",
+              "RelativeToolTip": "WebAppActions\\Views\\Cars\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-21T11:21:00.727Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Barto\\source\\repos\\AspNetDemoApp\\WebAppActions\\Views\\Cars\\Delete.cshtml",
+              "RelativeDocumentMoniker": "WebAppActions\\Views\\Cars\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Barto\\source\\repos\\AspNetDemoApp\\WebAppActions\\Views\\Cars\\Delete.cshtml",
+              "RelativeToolTip": "WebAppActions\\Views\\Cars\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-21T11:20:13.749Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Barto\\source\\repos\\AspNetDemoApp\\WebAppActions\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "WebAppActions\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Barto\\source\\repos\\AspNetDemoApp\\WebAppActions\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "WebAppActions\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-21T11:20:51.885Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Barto\\source\\repos\\AspNetDemoApp\\WebAppActions\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "WebAppActions\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\Barto\\source\\repos\\AspNetDemoApp\\WebAppActions\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "WebAppActions\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-21T11:29:37.286Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Barto\\source\\repos\\AspNetDemoApp\\WebAppActions\\Views\\Cars\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebAppActions\\Views\\Cars\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Barto\\source\\repos\\AspNetDemoApp\\WebAppActions\\Views\\Cars\\Index.cshtml",
+              "RelativeToolTip": "WebAppActions\\Views\\Cars\\Index.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-21T11:21:05.647Z"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

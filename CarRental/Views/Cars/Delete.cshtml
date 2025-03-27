@@ -1,0 +1,16 @@
+﻿@model Projekt_strona.Models.Car
+
+@{
+    ViewData["Title"] = "Usuń samochód";
+}
+
+<h1>Usuń samochód</h1>
+<p>Czy na pewno chcesz usunąć ten samochód?</p>
+
+<div class="car-item">
+    <h2>@Model.Make @Model.Model</h2>
+    <p>Rok: @Model.Year</p>
+    <p class="availability @(Model.IsAvailable ? "available" : "unavailable")">
+        Dostępność: @(Model.IsAvailable ? "Dostępny" : "Niedostępny")
+    </p>
+</div>
