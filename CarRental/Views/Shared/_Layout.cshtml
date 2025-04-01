@@ -3,24 +3,23 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - Wypożyczalnia samochodów</title>
+    <title>@ViewData["Title"] - Wypożyczalnia</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
 </head>
 <body>
-    <header class="header">
-        <nav class="navbar">
-            <a asp-controller="Cars" asp-action="Index">Strona główna</a>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+            <a class="navbar-brand" href="/">Wypożyczalnia samochodów</a>
         </nav>
     </header>
-
-    <main class="main-content">
-        @RenderBody()
-    </main>
-
-    <footer class="footer">
-        <p>© 2025 - Wypożyczalnia samochodów</p>
-    </footer>
-
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>

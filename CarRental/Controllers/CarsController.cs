@@ -13,12 +13,6 @@ namespace Projekt_strona.Controllers
             _carRepository = carRepository;
         }
 
-        public IActionResult Index()
-        {
-            var cars = _carRepository.GetAllCars().ToList();
-            return View(cars);
-        }
-
         [HttpGet]
         public IActionResult Create()
         {
@@ -32,7 +26,7 @@ namespace Projekt_strona.Controllers
             if (ModelState.IsValid)
             {
                 _carRepository.AddCar(car);
-                return RedirectToAction("Index");
+                return RedirectToAction("Index", "Home");
             }
             return View(car);
         }
@@ -55,7 +49,7 @@ namespace Projekt_strona.Controllers
             if (ModelState.IsValid)
             {
                 _carRepository.UpdateCar(car);
-                return RedirectToAction("Index");
+                return RedirectToAction("Index", "Home");
             }
             return View(car);
         }
@@ -65,7 +59,7 @@ namespace Projekt_strona.Controllers
         public IActionResult Delete(int id)
         {
             _carRepository.DeleteCar(id);
-            return RedirectToAction("Index");
+            return RedirectToAction("Index", "Home");
         }
     }
 }

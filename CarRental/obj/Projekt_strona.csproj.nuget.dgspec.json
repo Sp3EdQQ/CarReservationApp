@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Barto\\Source\\Repos\\AspNetDemoApp\\WebAppActions\\Projekt_strona.csproj": {}
+    "C:\\Users\\Barto\\source\\repos\\CarRentalASPApp\\CarRental\\Projekt_strona.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Barto\\Source\\Repos\\AspNetDemoApp\\WebAppActions\\Projekt_strona.csproj": {
+    "C:\\Users\\Barto\\source\\repos\\CarRentalASPApp\\CarRental\\Projekt_strona.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Barto\\Source\\Repos\\AspNetDemoApp\\WebAppActions\\Projekt_strona.csproj",
+        "projectUniqueName": "C:\\Users\\Barto\\source\\repos\\CarRentalASPApp\\CarRental\\Projekt_strona.csproj",
         "projectName": "Projekt_strona",
-        "projectPath": "C:\\Users\\Barto\\Source\\Repos\\AspNetDemoApp\\WebAppActions\\Projekt_strona.csproj",
+        "projectPath": "C:\\Users\\Barto\\source\\repos\\CarRentalASPApp\\CarRental\\Projekt_strona.csproj",
         "packagesPath": "C:\\Users\\Barto\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Barto\\Source\\Repos\\AspNetDemoApp\\WebAppActions\\obj\\",
+        "outputPath": "C:\\Users\\Barto\\source\\repos\\CarRentalASPApp\\CarRental\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

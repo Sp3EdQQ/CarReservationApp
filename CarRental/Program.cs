@@ -1,5 +1,5 @@
 using Microsoft.EntityFrameworkCore;
-using Projekt_strona.Data; // CarRentalsContext jest w Data
+using Projekt_strona.Data;
 using Projekt_strona.Repositories;
 
 namespace Projekt_strona
@@ -15,14 +15,14 @@ namespace Projekt_strona
             builder.Services.AddDbContext<CarRentalsContext>(options =>
                 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-            // Rejestracja warstwy repozytorium
             builder.Services.AddScoped<ICarRepository, CarRepository>();
+            builder.Services.AddScoped<ICustomerRepository, CustomerRepository>();
 
             var app = builder.Build();
 
             if (!app.Environment.IsDevelopment())
             {
-                app.UseExceptionHandler("/Cars/Index");
+                app.UseExceptionHandler("/Home/Index");
                 app.UseHsts();
             }
 
@@ -33,7 +33,7 @@ namespace Projekt_strona
 
             app.MapControllerRoute(
                 name: "default",
-                pattern: "{controller=Cars}/{action=Index}/{id?}");
+                pattern: "{controller=Home}/{action=Index}/{id?}"); // Zmieniono domyœlny kontroler na Home
 
             app.Run();
         }

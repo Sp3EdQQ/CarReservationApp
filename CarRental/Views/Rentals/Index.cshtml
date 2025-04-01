@@ -1,0 +1,38 @@
+﻿@model IEnumerable<Projekt_strona.Models.Rental>
+
+@{
+    ViewData["Title"] = "Lista wypożyczeń";
+}
+
+<h2>Lista wypożyczeń</h2>
+
+@if (!Model.Any())
+{
+    <p>Brak wypożyczeń do wyświetlenia.</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Samochód</th>
+                <th>Klient</th>
+                <th>Data wypożyczenia</th>
+                <th>Data zwrotu</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var rental in Model)
+            {
+                <tr>
+                    <td>@rental.Car.Make @rental.Car.Model (@rental.Car.Year)</td>
+                    <td>@rental.Customer.FirstName @rental.Customer.LastName</td>
+                    <td>@rental.RentDate.ToString("dd.MM.yyyy HH:mm")</td>
+                    <td>@(rental.ReturnDate?.ToString("dd.MM.yyyy HH:mm") ?? "Nie zwrócono")</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+<a asp-controller="Home" asp-action="Index" class="btn btn-secondary">Wróć</a>

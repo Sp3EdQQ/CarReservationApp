@@ -9,53 +9,73 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Projekt_strona
 build_property.RootNamespace = Projekt_strona
-build_property.ProjectDir = C:\Users\Barto\Source\Repos\AspNetDemoApp\WebAppActions\
+build_property.ProjectDir = C:\Users\Barto\source\repos\CarRentalASPApp\CarRental\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Barto\Source\Repos\AspNetDemoApp\WebAppActions
+build_property.MSBuildProjectDirectory = C:\Users\Barto\source\repos\CarRentalASPApp\CarRental
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 7.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/Barto/Source/Repos/AspNetDemoApp/WebAppActions/Views/Cars/Create.cshtml]
+[C:/Users/Barto/source/repos/CarRentalASPApp/CarRental/Views/Cars/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2Fyc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Barto/Source/Repos/AspNetDemoApp/WebAppActions/Views/Cars/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2Fyc1xEZWxldGUuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Barto/Source/Repos/AspNetDemoApp/WebAppActions/Views/Cars/Edit.cshtml]
+[C:/Users/Barto/source/repos/CarRentalASPApp/CarRental/Views/Cars/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2Fyc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Barto/Source/Repos/AspNetDemoApp/WebAppActions/Views/Cars/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2Fyc1xJbmRleC5jc2h0bWw=
+[C:/Users/Barto/source/repos/CarRentalASPApp/CarRental/Views/Cars/Rent.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2Fyc1xSZW50LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Barto/Source/Repos/AspNetDemoApp/WebAppActions/Views/Cars/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2Fyc1xQcml2YWN5LmNzaHRtbA==
+[C:/Users/Barto/source/repos/CarRentalASPApp/CarRental/Views/Customer/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Barto/Source/Repos/AspNetDemoApp/WebAppActions/Views/Shared/Error.cshtml]
+[C:/Users/Barto/source/repos/CarRentalASPApp/CarRental/Views/Customer/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Barto/source/repos/CarRentalASPApp/CarRental/Views/Customer/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Barto/source/repos/CarRentalASPApp/CarRental/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Barto/source/repos/CarRentalASPApp/CarRental/Views/Rentals/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVudGFsc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Barto/source/repos/CarRentalASPApp/CarRental/Views/Rentals/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVudGFsc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Barto/source/repos/CarRentalASPApp/CarRental/Views/Rentals/Return.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVudGFsc1xSZXR1cm4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Barto/source/repos/CarRentalASPApp/CarRental/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Barto/Source/Repos/AspNetDemoApp/WebAppActions/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Barto/source/repos/CarRentalASPApp/CarRental/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Barto/Source/Repos/AspNetDemoApp/WebAppActions/Views/_ViewImports.cshtml]
+[C:/Users/Barto/source/repos/CarRentalASPApp/CarRental/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Barto/Source/Repos/AspNetDemoApp/WebAppActions/Views/_ViewStart.cshtml]
+[C:/Users/Barto/source/repos/CarRentalASPApp/CarRental/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Barto/Source/Repos/AspNetDemoApp/WebAppActions/Views/Shared/_Layout.cshtml]
+[C:/Users/Barto/source/repos/CarRentalASPApp/CarRental/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-hsq8m647f1

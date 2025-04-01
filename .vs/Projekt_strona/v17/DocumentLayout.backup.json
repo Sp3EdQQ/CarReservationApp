@@ -1,94 +1,142 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Barto\\source\\repos\\AspNetDemoApp\\",
+  "WorkspaceRootPath": "C:\\Users\\Barto\\source\\repos\\CarRentalASPApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|WebAppActions\\Projekt_strona.csproj|c:\\users\\barto\\source\\repos\\aspnetdemoapp\\webappactions\\controllers\\carscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|WebAppActions\\Projekt_strona.csproj|solutionrelative:webappactions\\controllers\\carscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|CarRental\\Projekt_strona.csproj|c:\\users\\barto\\source\\repos\\carrentalaspapp\\carrental\\controllers\\rentalscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|CarRental\\Projekt_strona.csproj|solutionrelative:carrental\\controllers\\rentalscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|WebAppActions\\Projekt_strona.csproj|c:\\users\\barto\\source\\repos\\aspnetdemoapp\\webappactions\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|WebAppActions\\Projekt_strona.csproj|solutionrelative:webappactions\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|CarRental\\Projekt_strona.csproj|c:\\users\\barto\\source\\repos\\carrentalaspapp\\carrental\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|CarRental\\Projekt_strona.csproj|solutionrelative:carrental\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|WebAppActions\\Projekt_strona.csproj|c:\\users\\barto\\source\\repos\\aspnetdemoapp\\webappactions\\repositories\\carrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|WebAppActions\\Projekt_strona.csproj|solutionrelative:webappactions\\repositories\\carrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|CarRental\\Projekt_strona.csproj|c:\\users\\barto\\source\\repos\\carrentalaspapp\\carrental\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|CarRental\\Projekt_strona.csproj|solutionrelative:carrental\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|WebAppActions\\Projekt_strona.csproj|c:\\users\\barto\\source\\repos\\aspnetdemoapp\\webappactions\\repositories\\icarrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|WebAppActions\\Projekt_strona.csproj|solutionrelative:webappactions\\repositories\\icarrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|CarRental\\Projekt_strona.csproj|c:\\users\\barto\\source\\repos\\carrentalaspapp\\carrental\\controllers\\carscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|CarRental\\Projekt_strona.csproj|solutionrelative:carrental\\controllers\\carscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|WebAppActions\\Projekt_strona.csproj|c:\\users\\barto\\source\\repos\\aspnetdemoapp\\webappactions\\data\\carrentalscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|WebAppActions\\Projekt_strona.csproj|solutionrelative:webappactions\\data\\carrentalscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|CarRental\\Projekt_strona.csproj|c:\\users\\barto\\source\\repos\\carrentalaspapp\\carrental\\views\\cars\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|CarRental\\Projekt_strona.csproj|solutionrelative:carrental\\views\\cars\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|WebAppActions\\Projekt_strona.csproj|c:\\users\\barto\\source\\repos\\aspnetdemoapp\\webappactions\\projekt_strona.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|WebAppActions\\Projekt_strona.csproj|solutionrelative:webappactions\\projekt_strona.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|CarRental\\Projekt_strona.csproj|c:\\users\\barto\\source\\repos\\carrentalaspapp\\carrental\\views\\cars\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|CarRental\\Projekt_strona.csproj|solutionrelative:carrental\\views\\cars\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|WebAppActions\\Projekt_strona.csproj|c:\\users\\barto\\source\\repos\\aspnetdemoapp\\webappactions\\models\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|WebAppActions\\Projekt_strona.csproj|solutionrelative:webappactions\\models\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|CarRental\\Projekt_strona.csproj|c:\\users\\barto\\source\\repos\\carrentalaspapp\\carrental\\views\\rentals\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|CarRental\\Projekt_strona.csproj|solutionrelative:carrental\\views\\rentals\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|WebAppActions\\Projekt_strona.csproj|c:\\users\\barto\\source\\repos\\aspnetdemoapp\\webappactions\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|WebAppActions\\Projekt_strona.csproj|solutionrelative:webappactions\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|CarRental\\Projekt_strona.csproj|c:\\users\\barto\\source\\repos\\carrentalaspapp\\carrental\\views\\rentals\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|CarRental\\Projekt_strona.csproj|solutionrelative:carrental\\views\\rentals\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|WebAppActions\\Projekt_strona.csproj|c:\\users\\barto\\source\\repos\\aspnetdemoapp\\webappactions\\views\\cars\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|WebAppActions\\Projekt_strona.csproj|solutionrelative:webappactions\\views\\cars\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|CarRental\\Projekt_strona.csproj|c:\\users\\barto\\source\\repos\\carrentalaspapp\\carrental\\models\\rental.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|CarRental\\Projekt_strona.csproj|solutionrelative:carrental\\models\\rental.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|WebAppActions\\Projekt_strona.csproj|c:\\users\\barto\\source\\repos\\aspnetdemoapp\\webappactions\\models\\rental.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|WebAppActions\\Projekt_strona.csproj|solutionrelative:webappactions\\models\\rental.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|CarRental\\Projekt_strona.csproj|c:\\users\\barto\\source\\repos\\carrentalaspapp\\carrental\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|CarRental\\Projekt_strona.csproj|solutionrelative:carrental\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|WebAppActions\\Projekt_strona.csproj|c:\\users\\barto\\source\\repos\\aspnetdemoapp\\webappactions\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|WebAppActions\\Projekt_strona.csproj|solutionrelative:webappactions\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|CarRental\\Projekt_strona.csproj|c:\\users\\barto\\source\\repos\\carrentalaspapp\\carrental\\views\\cars\\rent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|CarRental\\Projekt_strona.csproj|solutionrelative:carrental\\views\\cars\\rent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|WebAppActions\\Projekt_strona.csproj|c:\\users\\barto\\source\\repos\\aspnetdemoapp\\webappactions\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|WebAppActions\\Projekt_strona.csproj|solutionrelative:webappactions\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|CarRental\\Projekt_strona.csproj|c:\\users\\barto\\source\\repos\\carrentalaspapp\\carrental\\views\\customer\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|CarRental\\Projekt_strona.csproj|solutionrelative:carrental\\views\\customer\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|WebAppActions\\Projekt_strona.csproj|c:\\users\\barto\\source\\repos\\aspnetdemoapp\\webappactions\\migrations\\carrentalscontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|WebAppActions\\Projekt_strona.csproj|solutionrelative:webappactions\\migrations\\carrentalscontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|CarRental\\Projekt_strona.csproj|c:\\users\\barto\\source\\repos\\carrentalaspapp\\carrental\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|CarRental\\Projekt_strona.csproj|solutionrelative:carrental\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|WebAppActions\\Projekt_strona.csproj|c:\\users\\barto\\source\\repos\\aspnetdemoapp\\webappactions\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|WebAppActions\\Projekt_strona.csproj|solutionrelative:webappactions\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|CarRental\\Projekt_strona.csproj|c:\\users\\barto\\source\\repos\\carrentalaspapp\\carrental\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|CarRental\\Projekt_strona.csproj|solutionrelative:carrental\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|WebAppActions\\Projekt_strona.csproj|c:\\users\\barto\\source\\repos\\aspnetdemoapp\\webappactions\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|WebAppActions\\Projekt_strona.csproj|solutionrelative:webappactions\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|CarRental\\Projekt_strona.csproj|c:\\users\\barto\\source\\repos\\carrentalaspapp\\carrental\\models\\paginatedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|CarRental\\Projekt_strona.csproj|solutionrelative:carrental\\models\\paginatedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|WebAppActions\\Projekt_strona.csproj|c:\\users\\barto\\source\\repos\\aspnetdemoapp\\webappactions\\projekt_strona.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|WebAppActions\\Projekt_strona.csproj|solutionrelative:webappactions\\projekt_strona.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+      "AbsoluteMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|CarRental\\Projekt_strona.csproj|c:\\users\\barto\\source\\repos\\carrentalaspapp\\carrental\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|CarRental\\Projekt_strona.csproj|solutionrelative:carrental\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|WebAppActions\\Projekt_strona.csproj|c:\\users\\barto\\source\\repos\\aspnetdemoapp\\webappactions\\views\\cars\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|WebAppActions\\Projekt_strona.csproj|solutionrelative:webappactions\\views\\cars\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|CarRental\\Projekt_strona.csproj|c:\\users\\barto\\source\\repos\\carrentalaspapp\\carrental\\repositories\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|CarRental\\Projekt_strona.csproj|solutionrelative:carrental\\repositories\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|WebAppActions\\Projekt_strona.csproj|c:\\users\\barto\\source\\repos\\aspnetdemoapp\\webappactions\\views\\cars\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|WebAppActions\\Projekt_strona.csproj|solutionrelative:webappactions\\views\\cars\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|CarRental\\Projekt_strona.csproj|c:\\users\\barto\\source\\repos\\carrentalaspapp\\carrental\\repositories\\icustomerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|CarRental\\Projekt_strona.csproj|solutionrelative:carrental\\repositories\\icustomerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|WebAppActions\\Projekt_strona.csproj|c:\\users\\barto\\source\\repos\\aspnetdemoapp\\webappactions\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|WebAppActions\\Projekt_strona.csproj|solutionrelative:webappactions\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|CarRental\\Projekt_strona.csproj|c:\\users\\barto\\source\\repos\\carrentalaspapp\\carrental\\data\\carrentalscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|CarRental\\Projekt_strona.csproj|solutionrelative:carrental\\data\\carrentalscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|WebAppActions\\Projekt_strona.csproj|c:\\users\\barto\\source\\repos\\aspnetdemoapp\\webappactions\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|WebAppActions\\Projekt_strona.csproj|solutionrelative:webappactions\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|CarRental\\Projekt_strona.csproj|c:\\users\\barto\\source\\repos\\carrentalaspapp\\carrental\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|CarRental\\Projekt_strona.csproj|solutionrelative:carrental\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|WebAppActions\\Projekt_strona.csproj|c:\\users\\barto\\source\\repos\\aspnetdemoapp\\webappactions\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|WebAppActions\\Projekt_strona.csproj|solutionrelative:webappactions\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|CarRental\\Projekt_strona.csproj|c:\\users\\barto\\source\\repos\\carrentalaspapp\\carrental\\views\\customer\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|CarRental\\Projekt_strona.csproj|solutionrelative:carrental\\views\\customer\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|WebAppActions\\Projekt_strona.csproj|c:\\users\\barto\\source\\repos\\aspnetdemoapp\\webappactions\\views\\cars\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|WebAppActions\\Projekt_strona.csproj|solutionrelative:webappactions\\views\\cars\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|CarRental\\Projekt_strona.csproj|c:\\users\\barto\\source\\repos\\carrentalaspapp\\carrental\\services\\carservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|CarRental\\Projekt_strona.csproj|solutionrelative:carrental\\services\\carservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|CarRental\\Projekt_strona.csproj|c:\\users\\barto\\source\\repos\\carrentalaspapp\\carrental\\services\\icarservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|CarRental\\Projekt_strona.csproj|solutionrelative:carrental\\services\\icarservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|CarRental\\Projekt_strona.csproj|c:\\users\\barto\\source\\repos\\carrentalaspapp\\carrental\\repositories\\icarrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|CarRental\\Projekt_strona.csproj|solutionrelative:carrental\\repositories\\icarrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|CarRental\\Projekt_strona.csproj|c:\\users\\barto\\source\\repos\\carrentalaspapp\\carrental\\projekt_strona.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|CarRental\\Projekt_strona.csproj|solutionrelative:carrental\\projekt_strona.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|CarRental\\Projekt_strona.csproj|c:\\users\\barto\\source\\repos\\carrentalaspapp\\carrental\\repositories\\carrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|CarRental\\Projekt_strona.csproj|solutionrelative:carrental\\repositories\\carrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|CarRental\\Projekt_strona.csproj|c:\\users\\barto\\source\\repos\\carrentalaspapp\\carrental\\models\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|CarRental\\Projekt_strona.csproj|solutionrelative:carrental\\models\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|CarRental\\Projekt_strona.csproj|c:\\users\\barto\\source\\repos\\carrentalaspapp\\carrental\\views\\customer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|CarRental\\Projekt_strona.csproj|solutionrelative:carrental\\views\\customer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|CarRental\\Projekt_strona.csproj|c:\\users\\barto\\source\\repos\\carrentalaspapp\\carrental\\views\\rentals\\return.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|CarRental\\Projekt_strona.csproj|solutionrelative:carrental\\views\\rentals\\return.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|CarRental\\Projekt_strona.csproj|c:\\users\\barto\\source\\repos\\carrentalaspapp\\carrental\\repositories\\rentalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|CarRental\\Projekt_strona.csproj|solutionrelative:carrental\\repositories\\rentalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|CarRental\\Projekt_strona.csproj|c:\\users\\barto\\source\\repos\\carrentalaspapp\\carrental\\repositories\\irentalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|CarRental\\Projekt_strona.csproj|solutionrelative:carrental\\repositories\\irentalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|CarRental\\Projekt_strona.csproj|c:\\users\\barto\\source\\repos\\carrentalaspapp\\carrental\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|CarRental\\Projekt_strona.csproj|solutionrelative:carrental\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|CarRental\\Projekt_strona.csproj|c:\\users\\barto\\source\\repos\\carrentalaspapp\\carrental\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|CarRental\\Projekt_strona.csproj|solutionrelative:carrental\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|CarRental\\Projekt_strona.csproj|c:\\users\\barto\\source\\repos\\carrentalaspapp\\carrental\\migrations\\carrentalscontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|CarRental\\Projekt_strona.csproj|solutionrelative:carrental\\migrations\\carrentalscontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -98,7 +146,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -110,273 +158,432 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ICarRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Barto\\source\\repos\\AspNetDemoApp\\WebAppActions\\Repositories\\ICarRepository.cs",
-              "RelativeDocumentMoniker": "WebAppActions\\Repositories\\ICarRepository.cs",
-              "ToolTip": "C:\\Users\\Barto\\source\\repos\\AspNetDemoApp\\WebAppActions\\Repositories\\ICarRepository.cs",
-              "RelativeToolTip": "WebAppActions\\Repositories\\ICarRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T13:36:42.658Z",
+              "DocumentIndex": 4,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Barto\\source\\repos\\CarRentalASPApp\\CarRental\\Views\\Cars\\Edit.cshtml",
+              "RelativeDocumentMoniker": "CarRental\\Views\\Cars\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Barto\\source\\repos\\CarRentalASPApp\\CarRental\\Views\\Cars\\Edit.cshtml",
+              "RelativeToolTip": "CarRental\\Views\\Cars\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-01T14:42:26.088Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Projekt_strona",
-              "DocumentMoniker": "C:\\Users\\Barto\\Source\\Repos\\AspNetDemoApp\\WebAppActions\\Projekt_strona.csproj",
-              "RelativeDocumentMoniker": "WebAppActions\\Projekt_strona.csproj",
-              "ToolTip": "C:\\Users\\Barto\\Source\\Repos\\AspNetDemoApp\\WebAppActions\\Projekt_strona.csproj",
-              "RelativeToolTip": "WebAppActions\\Projekt_strona.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-27T13:30:28.894Z",
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Barto\\source\\repos\\CarRentalASPApp\\CarRental\\Views\\Cars\\Create.cshtml",
+              "RelativeDocumentMoniker": "CarRental\\Views\\Cars\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Barto\\source\\repos\\CarRentalASPApp\\CarRental\\Views\\Cars\\Create.cshtml",
+              "RelativeToolTip": "CarRental\\Views\\Cars\\Create.cshtml",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAABwAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-01T13:59:53.961Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Barto\\source\\repos\\AspNetDemoApp\\WebAppActions\\Program.cs",
-              "RelativeDocumentMoniker": "WebAppActions\\Program.cs",
-              "ToolTip": "C:\\Users\\Barto\\source\\repos\\AspNetDemoApp\\WebAppActions\\Program.cs",
-              "RelativeToolTip": "WebAppActions\\Program.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAkwCMAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T11:33:54.388Z",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Barto\\source\\repos\\CarRentalASPApp\\CarRental\\Views\\Rentals\\Index.cshtml",
+              "RelativeDocumentMoniker": "CarRental\\Views\\Rentals\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Barto\\source\\repos\\CarRentalASPApp\\CarRental\\Views\\Rentals\\Index.cshtml",
+              "RelativeToolTip": "CarRental\\Views\\Rentals\\Index.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACUAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-27T19:36:25.36Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "CarsController.cs",
-              "DocumentMoniker": "C:\\Users\\Barto\\source\\repos\\AspNetDemoApp\\WebAppActions\\Controllers\\CarsController.cs",
-              "RelativeDocumentMoniker": "WebAppActions\\Controllers\\CarsController.cs",
-              "ToolTip": "C:\\Users\\Barto\\source\\repos\\AspNetDemoApp\\WebAppActions\\Controllers\\CarsController.cs",
-              "RelativeToolTip": "WebAppActions\\Controllers\\CarsController.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAkwEYAAAABAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\Barto\\source\\repos\\CarRentalASPApp\\CarRental\\Controllers\\CarsController.cs",
+              "RelativeDocumentMoniker": "CarRental\\Controllers\\CarsController.cs",
+              "ToolTip": "C:\\Users\\Barto\\source\\repos\\CarRentalASPApp\\CarRental\\Controllers\\CarsController.cs",
+              "RelativeToolTip": "CarRental\\Controllers\\CarsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T11:20:34.114Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CarRentalsContext.cs",
-              "DocumentMoniker": "C:\\Users\\Barto\\Source\\Repos\\AspNetDemoApp\\WebAppActions\\Data\\CarRentalsContext.cs",
-              "RelativeDocumentMoniker": "WebAppActions\\Data\\CarRentalsContext.cs",
-              "ToolTip": "C:\\Users\\Barto\\Source\\Repos\\AspNetDemoApp\\WebAppActions\\Data\\CarRentalsContext.cs",
-              "RelativeToolTip": "WebAppActions\\Data\\CarRentalsContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T11:31:50.313Z",
+              "WhenOpened": "2025-03-27T15:03:59.074Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "CarRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Barto\\source\\repos\\AspNetDemoApp\\WebAppActions\\Repositories\\CarRepository.cs",
-              "RelativeDocumentMoniker": "WebAppActions\\Repositories\\CarRepository.cs",
-              "ToolTip": "C:\\Users\\Barto\\source\\repos\\AspNetDemoApp\\WebAppActions\\Repositories\\CarRepository.cs",
-              "RelativeToolTip": "WebAppActions\\Repositories\\CarRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAaAAAAAAAAAA==",
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Barto\\source\\repos\\CarRentalASPApp\\CarRental\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "CarRental\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Barto\\source\\repos\\CarRentalASPApp\\CarRental\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "CarRental\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBcAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T13:50:28.564Z",
+              "WhenOpened": "2025-04-01T13:31:41.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CustomersController.cs",
+              "DocumentMoniker": "C:\\Users\\Barto\\source\\repos\\CarRentalASPApp\\CarRental\\Controllers\\CustomersController.cs",
+              "RelativeDocumentMoniker": "CarRental\\Controllers\\CustomersController.cs",
+              "ToolTip": "C:\\Users\\Barto\\source\\repos\\CarRentalASPApp\\CarRental\\Controllers\\CustomersController.cs",
+              "RelativeToolTip": "CarRental\\Controllers\\CustomersController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAABwAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T19:47:57.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RentalsController.cs",
+              "DocumentMoniker": "C:\\Users\\Barto\\source\\repos\\CarRentalASPApp\\CarRental\\Controllers\\RentalsController.cs",
+              "RelativeDocumentMoniker": "CarRental\\Controllers\\RentalsController.cs",
+              "ToolTip": "C:\\Users\\Barto\\source\\repos\\CarRentalASPApp\\CarRental\\Controllers\\RentalsController.cs",
+              "RelativeToolTip": "CarRental\\Controllers\\RentalsController.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAwwFgAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T20:10:37.643Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\Barto\\source\\repos\\AspNetDemoApp\\WebAppActions\\Views\\Cars\\Create.cshtml",
-              "RelativeDocumentMoniker": "WebAppActions\\Views\\Cars\\Create.cshtml",
-              "ToolTip": "C:\\Users\\Barto\\source\\repos\\AspNetDemoApp\\WebAppActions\\Views\\Cars\\Create.cshtml",
-              "RelativeToolTip": "WebAppActions\\Views\\Cars\\Create.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAgAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-21T11:29:59.414Z"
+              "Title": "Rental.cs",
+              "DocumentMoniker": "C:\\Users\\Barto\\source\\repos\\CarRentalASPApp\\CarRental\\Models\\Rental.cs",
+              "RelativeDocumentMoniker": "CarRental\\Models\\Rental.cs",
+              "ToolTip": "C:\\Users\\Barto\\source\\repos\\CarRentalASPApp\\CarRental\\Models\\Rental.cs",
+              "RelativeToolTip": "CarRental\\Models\\Rental.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T15:04:27.084Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "Rental.cs",
-              "DocumentMoniker": "C:\\Users\\Barto\\source\\repos\\AspNetDemoApp\\WebAppActions\\Models\\Rental.cs",
-              "RelativeDocumentMoniker": "WebAppActions\\Models\\Rental.cs",
-              "ToolTip": "C:\\Users\\Barto\\source\\repos\\AspNetDemoApp\\WebAppActions\\Models\\Rental.cs",
-              "RelativeToolTip": "WebAppActions\\Models\\Rental.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T11:32:00.415Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Barto\\source\\repos\\AspNetDemoApp\\WebAppActions\\Models\\ErrorViewModel.cs",
-              "RelativeDocumentMoniker": "WebAppActions\\Models\\ErrorViewModel.cs",
-              "ToolTip": "C:\\Users\\Barto\\source\\repos\\AspNetDemoApp\\WebAppActions\\Models\\ErrorViewModel.cs",
-              "RelativeToolTip": "WebAppActions\\Models\\ErrorViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T11:34:48.553Z"
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Barto\\source\\repos\\CarRentalASPApp\\CarRental\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "CarRental\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Barto\\source\\repos\\CarRentalASPApp\\CarRental\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "CarRental\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAADEAAAAAAAAAAAAAAEAAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-01T13:36:31.862Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Barto\\source\\repos\\AspNetDemoApp\\WebAppActions\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "WebAppActions\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Barto\\source\\repos\\AspNetDemoApp\\WebAppActions\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "WebAppActions\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAALAAAAAAAAAA==",
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Barto\\source\\repos\\CarRentalASPApp\\CarRental\\Views\\Rentals\\Create.cshtml",
+              "RelativeDocumentMoniker": "CarRental\\Views\\Rentals\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Barto\\source\\repos\\CarRentalASPApp\\CarRental\\Views\\Rentals\\Create.cshtml",
+              "RelativeToolTip": "CarRental\\Views\\Rentals\\Create.cshtml",
+              "ViewState": "AgIAACgAAAAAAAAAAAAAAC8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-21T11:20:38.033Z"
+              "WhenOpened": "2025-03-27T19:36:38.083Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Car.cs",
-              "DocumentMoniker": "C:\\Users\\Barto\\source\\repos\\AspNetDemoApp\\WebAppActions\\Models\\Car.cs",
-              "RelativeDocumentMoniker": "WebAppActions\\Models\\Car.cs",
-              "ToolTip": "C:\\Users\\Barto\\source\\repos\\AspNetDemoApp\\WebAppActions\\Models\\Car.cs",
-              "RelativeToolTip": "WebAppActions\\Models\\Car.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T11:31:38.06Z",
+              "DocumentIndex": 10,
+              "Title": "Rent.cshtml",
+              "DocumentMoniker": "C:\\Users\\Barto\\source\\repos\\CarRentalASPApp\\CarRental\\Views\\Cars\\Rent.cshtml",
+              "RelativeDocumentMoniker": "CarRental\\Views\\Cars\\Rent.cshtml",
+              "ToolTip": "C:\\Users\\Barto\\source\\repos\\CarRentalASPApp\\CarRental\\Views\\Cars\\Rent.cshtml",
+              "RelativeToolTip": "CarRental\\Views\\Cars\\Rent.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-27T20:01:49.597Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "Customer.cs",
-              "DocumentMoniker": "C:\\Users\\Barto\\source\\repos\\AspNetDemoApp\\WebAppActions\\Models\\Customer.cs",
-              "RelativeDocumentMoniker": "WebAppActions\\Models\\Customer.cs",
-              "ToolTip": "C:\\Users\\Barto\\source\\repos\\AspNetDemoApp\\WebAppActions\\Models\\Customer.cs",
-              "RelativeToolTip": "WebAppActions\\Models\\Customer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T11:31:52.409Z"
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Barto\\source\\repos\\CarRentalASPApp\\CarRental\\Views\\Customer\\Create.cshtml",
+              "RelativeDocumentMoniker": "CarRental\\Views\\Customer\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Barto\\source\\repos\\CarRentalASPApp\\CarRental\\Views\\Customer\\Create.cshtml",
+              "RelativeToolTip": "CarRental\\Views\\Customer\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-27T19:35:44.202Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "CarRentalsContextModelSnapshot.cs",
-              "DocumentMoniker": "C:\\Users\\Barto\\source\\repos\\AspNetDemoApp\\WebAppActions\\Migrations\\CarRentalsContextModelSnapshot.cs",
-              "RelativeDocumentMoniker": "WebAppActions\\Migrations\\CarRentalsContextModelSnapshot.cs",
-              "ToolTip": "C:\\Users\\Barto\\source\\repos\\AspNetDemoApp\\WebAppActions\\Migrations\\CarRentalsContextModelSnapshot.cs",
-              "RelativeToolTip": "WebAppActions\\Migrations\\CarRentalsContextModelSnapshot.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T11:35:53.627Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Barto\\source\\repos\\AspNetDemoApp\\WebAppActions\\appsettings.json",
-              "RelativeDocumentMoniker": "WebAppActions\\appsettings.json",
-              "ToolTip": "C:\\Users\\Barto\\source\\repos\\AspNetDemoApp\\WebAppActions\\appsettings.json",
-              "RelativeToolTip": "WebAppActions\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-21T11:35:13.596Z"
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Barto\\source\\repos\\CarRentalASPApp\\CarRental\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "CarRental\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Barto\\source\\repos\\CarRentalASPApp\\CarRental\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "CarRental\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-01T13:50:38.979Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
-              "Title": "Projekt_strona",
-              "DocumentMoniker": "C:\\Users\\Barto\\Source\\Repos\\AspNetDemoApp\\WebAppActions\\Projekt_strona.csproj",
-              "RelativeDocumentMoniker": "WebAppActions\\Projekt_strona.csproj",
-              "ToolTip": "C:\\Users\\Barto\\Source\\Repos\\AspNetDemoApp\\WebAppActions\\Projekt_strona.csproj",
-              "RelativeToolTip": "WebAppActions\\Projekt_strona.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-21T11:34:19.839Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Error.cshtml",
-              "DocumentMoniker": "C:\\Users\\Barto\\source\\repos\\AspNetDemoApp\\WebAppActions\\Views\\Shared\\Error.cshtml",
-              "RelativeDocumentMoniker": "WebAppActions\\Views\\Shared\\Error.cshtml",
-              "ToolTip": "C:\\Users\\Barto\\source\\repos\\AspNetDemoApp\\WebAppActions\\Views\\Shared\\Error.cshtml",
-              "RelativeToolTip": "WebAppActions\\Views\\Shared\\Error.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-21T11:20:55.586Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "_ValidationScriptsPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\Barto\\source\\repos\\AspNetDemoApp\\WebAppActions\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeDocumentMoniker": "WebAppActions\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ToolTip": "C:\\Users\\Barto\\source\\repos\\AspNetDemoApp\\WebAppActions\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeToolTip": "WebAppActions\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-21T11:20:53.925Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Privacy.cshtml",
-              "DocumentMoniker": "C:\\Users\\Barto\\source\\repos\\AspNetDemoApp\\WebAppActions\\Views\\Cars\\Privacy.cshtml",
-              "RelativeDocumentMoniker": "WebAppActions\\Views\\Cars\\Privacy.cshtml",
-              "ToolTip": "C:\\Users\\Barto\\source\\repos\\AspNetDemoApp\\WebAppActions\\Views\\Cars\\Privacy.cshtml",
-              "RelativeToolTip": "WebAppActions\\Views\\Cars\\Privacy.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-21T11:21:00.727Z"
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Barto\\source\\repos\\CarRentalASPApp\\CarRental\\Program.cs",
+              "RelativeDocumentMoniker": "CarRental\\Program.cs",
+              "ToolTip": "C:\\Users\\Barto\\source\\repos\\CarRentalASPApp\\CarRental\\Program.cs",
+              "RelativeToolTip": "CarRental\\Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAowCgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T15:04:31.274Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\Barto\\source\\repos\\AspNetDemoApp\\WebAppActions\\Views\\Cars\\Delete.cshtml",
-              "RelativeDocumentMoniker": "WebAppActions\\Views\\Cars\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\Barto\\source\\repos\\AspNetDemoApp\\WebAppActions\\Views\\Cars\\Delete.cshtml",
-              "RelativeToolTip": "WebAppActions\\Views\\Cars\\Delete.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-21T11:20:13.749Z"
+              "Title": "CustomerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Barto\\source\\repos\\CarRentalASPApp\\CarRental\\Repositories\\CustomerRepository.cs",
+              "RelativeDocumentMoniker": "CarRental\\Repositories\\CustomerRepository.cs",
+              "ToolTip": "C:\\Users\\Barto\\source\\repos\\CarRentalASPApp\\CarRental\\Repositories\\CustomerRepository.cs",
+              "RelativeToolTip": "CarRental\\Repositories\\CustomerRepository.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAYwDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T15:10:00.438Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Users\\Barto\\source\\repos\\AspNetDemoApp\\WebAppActions\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "WebAppActions\\Views\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Users\\Barto\\source\\repos\\AspNetDemoApp\\WebAppActions\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "WebAppActions\\Views\\_ViewImports.cshtml",
+              "DocumentIndex": 13,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\Barto\\source\\repos\\CarRentalASPApp\\CarRental\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "CarRental\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\Barto\\source\\repos\\CarRentalASPApp\\CarRental\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "CarRental\\wwwroot\\css\\site.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-21T11:20:51.885Z"
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-01T13:48:47.377Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PaginatedList.cs",
+              "DocumentMoniker": "C:\\Users\\Barto\\source\\repos\\CarRentalASPApp\\CarRental\\Models\\PaginatedList.cs",
+              "RelativeDocumentMoniker": "CarRental\\Models\\PaginatedList.cs",
+              "ToolTip": "C:\\Users\\Barto\\source\\repos\\CarRentalASPApp\\CarRental\\Models\\PaginatedList.cs",
+              "RelativeToolTip": "CarRental\\Models\\PaginatedList.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAuwBcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T21:14:04.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ICustomerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Barto\\source\\repos\\CarRentalASPApp\\CarRental\\Repositories\\ICustomerRepository.cs",
+              "RelativeDocumentMoniker": "CarRental\\Repositories\\ICustomerRepository.cs",
+              "ToolTip": "C:\\Users\\Barto\\source\\repos\\CarRentalASPApp\\CarRental\\Repositories\\ICustomerRepository.cs",
+              "RelativeToolTip": "CarRental\\Repositories\\ICustomerRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T15:08:18.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CarRentalsContext.cs",
+              "DocumentMoniker": "C:\\Users\\Barto\\source\\repos\\CarRentalASPApp\\CarRental\\Data\\CarRentalsContext.cs",
+              "RelativeDocumentMoniker": "CarRental\\Data\\CarRentalsContext.cs",
+              "ToolTip": "C:\\Users\\Barto\\source\\repos\\CarRentalASPApp\\CarRental\\Data\\CarRentalsContext.cs",
+              "RelativeToolTip": "CarRental\\Data\\CarRentalsContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T13:07:24.545Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 20,
-              "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "C:\\Users\\Barto\\source\\repos\\AspNetDemoApp\\WebAppActions\\Views\\_ViewStart.cshtml",
-              "RelativeDocumentMoniker": "WebAppActions\\Views\\_ViewStart.cshtml",
-              "ToolTip": "C:\\Users\\Barto\\source\\repos\\AspNetDemoApp\\WebAppActions\\Views\\_ViewStart.cshtml",
-              "RelativeToolTip": "WebAppActions\\Views\\_ViewStart.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Barto\\source\\repos\\CarRentalASPApp\\CarRental\\Views\\Customer\\Edit.cshtml",
+              "RelativeDocumentMoniker": "CarRental\\Views\\Customer\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Barto\\source\\repos\\CarRentalASPApp\\CarRental\\Views\\Customer\\Edit.cshtml",
+              "RelativeToolTip": "CarRental\\Views\\Customer\\Edit.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAowBEAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-21T11:29:37.286Z"
+              "WhenOpened": "2025-03-27T19:36:06.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\Barto\\source\\repos\\CarRentalASPApp\\CarRental\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "CarRental\\Models\\Customer.cs",
+              "ToolTip": "C:\\Users\\Barto\\source\\repos\\CarRentalASPApp\\CarRental\\Models\\Customer.cs",
+              "RelativeToolTip": "CarRental\\Models\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T15:04:19.649Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 21,
+              "Title": "CarService.cs",
+              "DocumentMoniker": "C:\\Users\\Barto\\source\\repos\\CarRentalASPApp\\CarRental\\Services\\CarService.cs",
+              "RelativeDocumentMoniker": "CarRental\\Services\\CarService.cs",
+              "ToolTip": "C:\\Users\\Barto\\source\\repos\\CarRentalASPApp\\CarRental\\Services\\CarService.cs",
+              "RelativeToolTip": "CarRental\\Services\\CarService.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwCgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T21:26:43.325Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Projekt_strona.csproj",
+              "DocumentMoniker": "C:\\Users\\Barto\\source\\repos\\CarRentalASPApp\\CarRental\\Projekt_strona.csproj",
+              "RelativeDocumentMoniker": "CarRental\\Projekt_strona.csproj",
+              "ToolTip": "C:\\Users\\Barto\\source\\repos\\CarRentalASPApp\\CarRental\\Projekt_strona.csproj",
+              "RelativeToolTip": "CarRental\\Projekt_strona.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-27T21:23:56.569Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ICarService.cs",
+              "DocumentMoniker": "C:\\Users\\Barto\\source\\repos\\CarRentalASPApp\\CarRental\\Services\\ICarService.cs",
+              "RelativeDocumentMoniker": "CarRental\\Services\\ICarService.cs",
+              "ToolTip": "C:\\Users\\Barto\\source\\repos\\CarRentalASPApp\\CarRental\\Services\\ICarService.cs",
+              "RelativeToolTip": "CarRental\\Services\\ICarService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T21:24:20.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ICarRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Barto\\source\\repos\\CarRentalASPApp\\CarRental\\Repositories\\ICarRepository.cs",
+              "RelativeDocumentMoniker": "CarRental\\Repositories\\ICarRepository.cs",
+              "ToolTip": "C:\\Users\\Barto\\source\\repos\\CarRentalASPApp\\CarRental\\Repositories\\ICarRepository.cs",
+              "RelativeToolTip": "CarRental\\Repositories\\ICarRepository.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA8wA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T15:08:28.443Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "CarRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Barto\\source\\repos\\CarRentalASPApp\\CarRental\\Repositories\\CarRepository.cs",
+              "RelativeDocumentMoniker": "CarRental\\Repositories\\CarRepository.cs",
+              "ToolTip": "C:\\Users\\Barto\\source\\repos\\CarRentalASPApp\\CarRental\\Repositories\\CarRepository.cs",
+              "RelativeToolTip": "CarRental\\Repositories\\CarRepository.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAuwDYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T19:45:50.748Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Car.cs",
+              "DocumentMoniker": "C:\\Users\\Barto\\source\\repos\\CarRentalASPApp\\CarRental\\Models\\Car.cs",
+              "RelativeDocumentMoniker": "CarRental\\Models\\Car.cs",
+              "ToolTip": "C:\\Users\\Barto\\source\\repos\\CarRentalASPApp\\CarRental\\Models\\Car.cs",
+              "RelativeToolTip": "CarRental\\Models\\Car.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T15:04:15.839Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Barto\\source\\repos\\AspNetDemoApp\\WebAppActions\\Views\\Cars\\Index.cshtml",
-              "RelativeDocumentMoniker": "WebAppActions\\Views\\Cars\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Barto\\source\\repos\\AspNetDemoApp\\WebAppActions\\Views\\Cars\\Index.cshtml",
-              "RelativeToolTip": "WebAppActions\\Views\\Cars\\Index.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\Barto\\source\\repos\\CarRentalASPApp\\CarRental\\Views\\Customer\\Index.cshtml",
+              "RelativeDocumentMoniker": "CarRental\\Views\\Customer\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Barto\\source\\repos\\CarRentalASPApp\\CarRental\\Views\\Customer\\Index.cshtml",
+              "RelativeToolTip": "CarRental\\Views\\Customer\\Index.cshtml",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-21T11:21:05.647Z"
+              "WhenOpened": "2025-03-27T19:35:21.991Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Return.cshtml",
+              "DocumentMoniker": "C:\\Users\\Barto\\source\\repos\\CarRentalASPApp\\CarRental\\Views\\Rentals\\Return.cshtml",
+              "RelativeDocumentMoniker": "CarRental\\Views\\Rentals\\Return.cshtml",
+              "ToolTip": "C:\\Users\\Barto\\source\\repos\\CarRentalASPApp\\CarRental\\Views\\Rentals\\Return.cshtml",
+              "RelativeToolTip": "CarRental\\Views\\Rentals\\Return.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-27T19:38:58.287Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "RentalRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Barto\\source\\repos\\CarRentalASPApp\\CarRental\\Repositories\\RentalRepository.cs",
+              "RelativeDocumentMoniker": "CarRental\\Repositories\\RentalRepository.cs",
+              "ToolTip": "C:\\Users\\Barto\\source\\repos\\CarRentalASPApp\\CarRental\\Repositories\\RentalRepository.cs",
+              "RelativeToolTip": "CarRental\\Repositories\\RentalRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T15:10:32.013Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "IRentalRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Barto\\source\\repos\\CarRentalASPApp\\CarRental\\Repositories\\IRentalRepository.cs",
+              "RelativeDocumentMoniker": "CarRental\\Repositories\\IRentalRepository.cs",
+              "ToolTip": "C:\\Users\\Barto\\source\\repos\\CarRentalASPApp\\CarRental\\Repositories\\IRentalRepository.cs",
+              "RelativeToolTip": "CarRental\\Repositories\\IRentalRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T15:09:29.889Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Barto\\source\\repos\\CarRentalASPApp\\CarRental\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "CarRental\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\Barto\\source\\repos\\CarRentalASPApp\\CarRental\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "CarRental\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-27T15:12:12.246Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Barto\\source\\repos\\CarRentalASPApp\\CarRental\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "CarRental\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Barto\\source\\repos\\CarRentalASPApp\\CarRental\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "CarRental\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-27T15:12:10.787Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "CarRentalsContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\Barto\\source\\repos\\CarRentalASPApp\\CarRental\\Migrations\\CarRentalsContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "CarRental\\Migrations\\CarRentalsContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\Barto\\source\\repos\\CarRentalASPApp\\CarRental\\Migrations\\CarRentalsContextModelSnapshot.cs",
+              "RelativeToolTip": "CarRental\\Migrations\\CarRentalsContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T15:04:12.876Z"
             }
           ]
         },

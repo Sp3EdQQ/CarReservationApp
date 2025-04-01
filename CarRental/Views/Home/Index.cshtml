@@ -1,0 +1,65 @@
+﻿@model Projekt_strona.Models.PaginatedList<Projekt_strona.Models.Car>
+
+<h2>Wypożyczalnia samochodów - widok ogólny</h2>
+<a asp-controller="Cars" asp-action="Create" class="btn btn-primary">Dodaj samochód</a>
+<a asp-controller="Rentals" asp-action="Index" class="btn btn-info">Lista wypożyczeń</a> <!-- Zmieniono z Rental na Rentals -->
+<a asp-controller="Customer" asp-action="Create" class="btn btn-primary">Dodaj osobę</a>
+<a asp-controller="Rentals" asp-action="Create" class="btn btn-success">Wypożyczenie</a> <!-- Zmieniono z Rental na Rentals -->
+
+<div class="container" style="display: flex; justify-content: space-between; gap: 20px;">
+    <!-- Lewa strona: Samochody -->
+    <div class="cars-column" style="width: 48%;">
+        <h3>Samochody do wypożyczenia</h3>
+        <ul class="car-list" style="list-style: none; padding: 0; margin: 0;">
+            @foreach (var car in Model.Items)
+            {
+                <li class="car-item" style="margin-bottom: 10px;">
+                    @car.Make @car.Model - @car.Year
+                    <span class="availability @(car.IsAvailable ? "available" : "unavailable")">
+                        (@(car.IsAvailable ? "Dostępny" : "Niedostępny"))
+                    </span>
+                    <div>
+                        <a asp-controller="Cars" asp-action="Edit" asp-route-id="@car.Id" class="details-link">Edytuj</a>
+                        <form asp-controller="Cars" asp-action="Delete" asp-route-id="@car.Id" method="post" style="display:inline;">
+                            @Html.AntiForgeryToken()
+                            <button type="submit" class="details-link delete-btn">Usuń</button>
+                        </form>
+                    </div>
+                </li>
+            }
+        </ul>
+
+        <!-- Paginacja dla samochodów -->
+        <nav>
+            <ul class="pagination" style="margin-top: 20px;">
+                <li class="page-item @(Model.HasPreviousPage ? "" : "disabled")">
+                    <a class="page-link" asp-action="Index" asp-route-pageIndex="@(Model.PageIndex - 1)" asp-route-pageSize="@Model.PageSize">Poprzednia</a>
+                </li>
+                @for (int i = 1; i <= Model.TotalPages; i++)
+                {
+                    <li class="page-item @(i == Model.PageIndex ? "active" : "")">
+                        <a class="page-link" asp-action="Index" asp-route-pageIndex="@i" asp-route-pageSize="@Model.PageSize">@i</a>
+                    </li>
+                }
+                <li class="page-item @(Model.HasNextPage ? "" : "disabled")">
+                    <a class="page-link" asp-action="Index" asp-route-pageIndex="@(Model.PageIndex + 1)" asp-route-pageSize="@Model.PageSize">Następna</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- Prawa strona: Klienci -->
+    <div class="customers-column" style="width: 48%;">
+        <h3>Lista osób</h3>
+        <ul class="customer-list" style="list-style: none; padding: 0; margin: 0;">
+            @foreach (var customer in ViewBag.Customers)
+            {
+                <li class="customer-item" style="margin-bottom: 10px;">
+                    @customer.FirstName @customer.LastName - @customer.PhoneNumber
+                </li>
+            }
+        </ul>
+    </div>
+</div>
+
+<script src="~/js/site.js" asp-append-version="true"></script>
