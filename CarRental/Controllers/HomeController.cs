@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Projekt_strona.Models;
+using Projekt_strona.Models.ViewModels;
 using Projekt_strona.Repositories;
 
 namespace Projekt_strona.Controllers
@@ -15,14 +16,21 @@ namespace Projekt_strona.Controllers
             _customerRepository = customerRepository;
         }
 
-        public IActionResult Index(int pageIndex = 1, int pageSize = 5)
+        public IActionResult Index(int carsPageIndex = 1, int carsPageSize = 5, int customerPageIndex = 1, int customerPageSize = 5)
         {
             var cars = _carRepository.GetAllCars();
-            var paginatedCars = PaginatedList<Car>.Create(cars, pageIndex, pageSize);
-            var customers = _customerRepository.GetAllCustomers().ToList();
+            var paginatedCars = PaginatedList<Car>.Create(cars, carsPageIndex, carsPageSize);
 
-            ViewBag.Customers = customers;
-            return View(paginatedCars);
+            var customers = _customerRepository.GetAllCustomers();
+            var paginatedCustomers = PaginatedList<Customer>.Create(customers, customerPageIndex, customerPageSize);
+
+            var viewModel = new HomeViewModel
+            {
+                Cars = paginatedCars,
+                Customers = paginatedCustomers
+            };
+
+            return View(viewModel);
         }
     }
 }

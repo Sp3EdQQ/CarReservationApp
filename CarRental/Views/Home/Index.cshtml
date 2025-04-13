@@ -1,17 +1,17 @@
-﻿@model Projekt_strona.Models.PaginatedList<Projekt_strona.Models.Car>
+﻿@model Projekt_strona.Models.ViewModels.HomeViewModel
 
 <h2>Wypożyczalnia samochodów - widok ogólny</h2>
 <a asp-controller="Cars" asp-action="Create" class="btn btn-primary">Dodaj samochód</a>
-<a asp-controller="Rentals" asp-action="Index" class="btn btn-info">Lista wypożyczeń</a> <!-- Zmieniono z Rental na Rentals -->
+<a asp-controller="Rentals" asp-action="Index" class="btn btn-info">Lista wypożyczeń</a>
 <a asp-controller="Customer" asp-action="Create" class="btn btn-primary">Dodaj osobę</a>
-<a asp-controller="Rentals" asp-action="Create" class="btn btn-success">Wypożyczenie</a> <!-- Zmieniono z Rental na Rentals -->
+<a asp-controller="Rentals" asp-action="Create" class="btn btn-success">Wypożyczenie</a>
 
 <div class="container" style="display: flex; justify-content: space-between; gap: 20px;">
     <!-- Lewa strona: Samochody -->
     <div class="cars-column" style="width: 48%;">
         <h3>Samochody do wypożyczenia</h3>
         <ul class="car-list" style="list-style: none; padding: 0; margin: 0;">
-            @foreach (var car in Model.Items)
+            @foreach (var car in Model.Cars.Items)
             {
                 <li class="car-item" style="margin-bottom: 10px;">
                     @car.Make @car.Model - @car.Year
@@ -32,17 +32,17 @@
         <!-- Paginacja dla samochodów -->
         <nav>
             <ul class="pagination" style="margin-top: 20px;">
-                <li class="page-item @(Model.HasPreviousPage ? "" : "disabled")">
-                    <a class="page-link" asp-action="Index" asp-route-pageIndex="@(Model.PageIndex - 1)" asp-route-pageSize="@Model.PageSize">Poprzednia</a>
+                <li class="page-item @(Model.Cars.HasPreviousPage ? "" : "disabled")">
+                    <a class="page-link" asp-action="Index" asp-route-carsPageIndex="@(Model.Cars.PageIndex - 1)" asp-route-carsPageSize="@Model.Cars.PageSize" asp-route-customerPageIndex="@Model.Customers.PageIndex" asp-route-customerPageSize="@Model.Customers.PageSize">Poprzednia</a>
                 </li>
-                @for (int i = 1; i <= Model.TotalPages; i++)
+                @for (int i = 1; i <= Model.Cars.TotalPages; i++)
                 {
-                    <li class="page-item @(i == Model.PageIndex ? "active" : "")">
-                        <a class="page-link" asp-action="Index" asp-route-pageIndex="@i" asp-route-pageSize="@Model.PageSize">@i</a>
+                    <li class="page-item @(i == Model.Cars.PageIndex ? "active" : "")">
+                        <a class="page-link" asp-action="Index" asp-route-carsPageIndex="@i" asp-route-carsPageSize="@Model.Cars.PageSize" asp-route-customerPageIndex="@Model.Customers.PageIndex" asp-route-customerPageSize="@Model.Customers.PageSize">@i</a>
                     </li>
                 }
-                <li class="page-item @(Model.HasNextPage ? "" : "disabled")">
-                    <a class="page-link" asp-action="Index" asp-route-pageIndex="@(Model.PageIndex + 1)" asp-route-pageSize="@Model.PageSize">Następna</a>
+                <li class="page-item @(Model.Cars.HasNextPage ? "" : "disabled")">
+                    <a class="page-link" asp-action="Index" asp-route-carsPageIndex="@(Model.Cars.PageIndex + 1)" asp-route-carsPageSize="@Model.Cars.PageSize" asp-route-customerPageIndex="@Model.Customers.PageIndex" asp-route-customerPageSize="@Model.Customers.PageSize">Następna</a>
                 </li>
             </ul>
         </nav>
@@ -52,14 +52,59 @@
     <div class="customers-column" style="width: 48%;">
         <h3>Lista osób</h3>
         <ul class="customer-list" style="list-style: none; padding: 0; margin: 0;">
-            @foreach (var customer in ViewBag.Customers)
+            @foreach (var customer in Model.Customers.Items)
             {
                 <li class="customer-item" style="margin-bottom: 10px;">
                     @customer.FirstName @customer.LastName - @customer.PhoneNumber
                 </li>
             }
         </ul>
+
+        <!-- Paginacja dla klientów -->
+        <nav>
+            <ul class="pagination" style="margin-top: 20px;">
+                <li class="page-item @(Model.Customers.HasPreviousPage ? "" : "disabled")">
+                    <a class="page-link" asp-action="Index" asp-route-carsPageIndex="@Model.Cars.PageIndex" asp-route-carsPageSize="@Model.Cars.PageSize" asp-route-customerPageIndex="@(Model.Customers.PageIndex - 1)" asp-route-customerPageSize="@Model.Customers.PageSize">Poprzednia</a>
+                </li>
+                @for (int i = 1; i <= Model.Customers.TotalPages; i++)
+                {
+                    <li class="page-item @(i == Model.Customers.PageIndex ? "active" : "")">
+                        <a class="page-link" asp-action="Index" asp-route-carsPageIndex="@Model.Cars.PageIndex" asp-route-carsPageSize="@Model.Cars.PageSize" asp-route-customerPageIndex="@i" asp-route-customerPageSize="@Model.Customers.PageSize">@i</a>
+                    </li>
+                }
+                <li class="page-item @(Model.Customers.HasNextPage ? "" : "disabled")">
+                    <a class="page-link" asp-action="Index" asp-route-carsPageIndex="@Model.Cars.PageIndex" asp-route-carsPageSize="@Model.Cars.PageSize" asp-route-customerPageIndex="@(Model.Customers.PageIndex + 1)" asp-route-customerPageSize="@Model.Customers.PageSize">Następna</a>
+                </li>
+            </ul>
+        </nav>
     </div>
 </div>
+
+<style>
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    .available {
+        color: green;
+    }
+
+    .unavailable {
+        color: red;
+    }
+
+    .details-link {
+        margin-left: 10px;
+    }
+
+    .delete-btn {
+        background: none;
+        border: none;
+        color: red;
+        cursor: pointer;
+    }
+</style>
 
 <script src="~/js/site.js" asp-append-version="true"></script>

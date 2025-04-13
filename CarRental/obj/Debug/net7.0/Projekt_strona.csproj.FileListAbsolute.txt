@@ -160,3 +160,7 @@ C:\Users\Barto\source\repos\CarRentalASPApp\CarRental\obj\Debug\net7.0\refint\Pr
 C:\Users\Barto\source\repos\CarRentalASPApp\CarRental\obj\Debug\net7.0\Projekt_strona.pdb
 C:\Users\Barto\source\repos\CarRentalASPApp\CarRental\obj\Debug\net7.0\Projekt_strona.genruntimeconfig.cache
 C:\Users\Barto\source\repos\CarRentalASPApp\CarRental\obj\Debug\net7.0\ref\Projekt_strona.dll
+C:\Users\Barto\source\repos\CarRentalASPApp\CarRental\bin\Debug\net7.0\FluentValidation.dll
+C:\Users\Barto\source\repos\CarRentalASPApp\CarRental\bin\Debug\net7.0\FluentValidation.AspNetCore.dll
+C:\Users\Barto\source\repos\CarRentalASPApp\CarRental\bin\Debug\net7.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\Barto\source\repos\CarRentalASPApp\CarRental\obj\Debug\net7.0\Projekt_strona.MvcApplicationPartsAssemblyInfo.cs
