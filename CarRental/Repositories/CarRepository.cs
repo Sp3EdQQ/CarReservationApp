@@ -1,6 +1,7 @@
-﻿using Microsoft.EntityFrameworkCore;
-using Projekt_strona.Data;
+﻿using Projekt_strona.Data;
 using Projekt_strona.Models;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace Projekt_strona.Repositories
 {
@@ -13,9 +14,9 @@ namespace Projekt_strona.Repositories
             _context = context;
         }
 
-        public IQueryable<Car> GetAllCars()
+        public IEnumerable<Car> GetAllCars()
         {
-            return _context.Cars.AsQueryable();
+            return _context.Cars.ToList();
         }
 
         public Car GetCarById(int id)

@@ -1,38 +1,51 @@
 ﻿@model IEnumerable<Projekt_strona.Models.Rental>
+@using Projekt_strona.Models
+@using System.Collections.Generic
 
 @{
-    ViewData["Title"] = "Lista wypożyczeń";
+    ViewData["Title"] = "Lista rezerwacji";
 }
 
-<h2>Lista wypożyczeń</h2>
+<h2>Lista rezerwacji</h2>
 
-@if (!Model.Any())
+@if (TempData["Success"] != null)
 {
-    <p>Brak wypożyczeń do wyświetlenia.</p>
+    <div class="alert alert-success">@TempData["Success"]</div>
 }
-else
+
+@if (TempData["Error"] != null)
 {
-    <table class="table">
-        <thead>
+    <div class="alert alert-danger">@TempData["Error"]</div>
+}
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Samochód</th>
+            <th>Klient</th>
+            <th>Data wypożyczenia</th>
+            <th>Data zwrotu</th>
+            <th>Akcje</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var rental in Model)
+        {
             <tr>
-                <th>Samochód</th>
-                <th>Klient</th>
-                <th>Data wypożyczenia</th>
-                <th>Data zwrotu</th>
+                <td>
+                    @(((List<Car>)ViewBag.AvailableCars)?.FirstOrDefault(c => c.Id == rental.CarId)?.Make ?? "Nieznany")
+                </td>
+                <td>
+                    @(((List<Customer>)ViewBag.Customers)?.FirstOrDefault(c => c.Id == rental.CustomerId)?.FirstName ?? "Nieznany")
+                </td>
+                <td>@rental.RentalDate.ToString("yyyy-MM-dd")</td>
+                <td>@(rental.ReturnDate?.ToString("yyyy-MM-dd") ?? "Brak")</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@rental.Id" class="btn btn-primary btn-sm">Edytuj</a>
+                </td>
             </tr>
-        </thead>
-        <tbody>
-            @foreach (var rental in Model)
-            {
-                <tr>
-                    <td>@rental.Car.Make @rental.Car.Model (@rental.Car.Year)</td>
-                    <td>@rental.Customer.FirstName @rental.Customer.LastName</td>
-                    <td>@rental.RentDate.ToString("dd.MM.yyyy HH:mm")</td>
-                    <td>@(rental.ReturnDate?.ToString("dd.MM.yyyy HH:mm") ?? "Nie zwrócono")</td>
-                </tr>
-            }
-        </tbody>
-    </table>
-}
+        }
+    </tbody>
+</table>
 
-<a asp-controller="Home" asp-action="Index" class="btn btn-secondary">Wróć</a>
+<a asp-action="Create" class="btn btn-success">Dodaj nową rezerwację</a>

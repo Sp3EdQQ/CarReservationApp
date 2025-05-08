@@ -4,29 +4,40 @@
     ViewData["Title"] = "Edytuj samochód";
 }
 
-<h1>Edytuj samochód</h1>
+<h2>Edytuj samochód</h2>
 
 <form asp-action="Edit" method="post">
     <input type="hidden" asp-for="Id" />
-    <div>
-        <label asp-for="Make">Marka:</label>
-        <input asp-for="Make" class="form-input" />
-        <span asp-validation-for="Make" class="error"></span>
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+    <div class="form-group">
+        <label asp-for="Make">Marka</label>
+        <input asp-for="Make" class="form-control" />
+        <span asp-validation-for="Make" class="text-danger"></span>
     </div>
-    <div>
-        <label asp-for="Model">Model:</label>
-        <input asp-for="Model" class="form-input" />
-        <span asp-validation-for="Model" class="error"></span>
+
+    <div class="form-group">
+        <label asp-for="Model">Model</label>
+        <input asp-for="Model" class="form-control" />
+        <span asp-validation-for="Model" class="text-danger"></span>
     </div>
-    <div>
-        <label asp-for="Year">Rok:</label>
-        <input asp-for="Year" class="form-input" type="number" />
-        <span asp-validation-for="Year" class="error"></span>
+
+    <div class="form-group">
+        <label asp-for="Year">Rok</label>
+        <input asp-for="Year" class="form-control" />
+        <span asp-validation-for="Year" class="text-danger"></span>
     </div>
-    <div>
-        <label asp-for="IsAvailable">Dostępny:</label>
-        <input asp-for="IsAvailable" type="checkbox" />
+
+    <div class="form-group">
+        <label asp-for="IsAvailable">Dostępny</label>
+        <input asp-for="IsAvailable" type="checkbox" class="form-check-input" />
+        <span asp-validation-for="IsAvailable" class="text-danger"></span>
     </div>
-    <button type="submit" class="details-link">Zapisz</button>
-    <a asp-action="Home" class="details-link">Wróć</a>
+
+    <button type="submit" class="btn btn-success">Zapisz</button>
+    <a asp-action="Index" class="btn btn-secondary">Wróć</a>
 </form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

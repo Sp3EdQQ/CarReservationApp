@@ -1,5 +1,6 @@
 ﻿using Projekt_strona.Data;
 using Projekt_strona.Models;
+using System.Collections.Generic;
 using System.Linq;
 
 namespace Projekt_strona.Repositories
@@ -13,14 +14,14 @@ namespace Projekt_strona.Repositories
             _context = context;
         }
 
-        public IQueryable<Customer> GetAllCustomers()
+        public IEnumerable<Customer> GetAllCustomers()
         {
-            return _context.Customers;
+            return _context.Customers.ToList();
         }
 
         public Customer GetCustomerById(int id)
         {
-            return _context.Customers.FirstOrDefault(c => c.Id == id);
+            return _context.Customers.Find(id);
         }
 
         public void AddCustomer(Customer customer)
@@ -37,7 +38,7 @@ namespace Projekt_strona.Repositories
 
         public void DeleteCustomer(int id)
         {
-            var customer = _context.Customers.FirstOrDefault(c => c.Id == id);
+            var customer = _context.Customers.Find(id);
             if (customer != null)
             {
                 _context.Customers.Remove(customer);

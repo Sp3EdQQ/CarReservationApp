@@ -1,30 +1,28 @@
 using Microsoft.EntityFrameworkCore;
 using Projekt_strona.Data;
 using Projekt_strona.Repositories;
-using FluentValidation.AspNetCore;
-using Projekt_strona.Models.Validators;
-using FluentValidation;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Dodaj DbContext
+// Add services to the container.
+builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<CarRentalsContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
-
-// Dodaj repozytoria
 builder.Services.AddScoped<ICarRepository, CarRepository>();
+builder.Services.AddScoped<IRentalRepository, RentalRepository>();
 builder.Services.AddScoped<ICustomerRepository, CustomerRepository>();
 
-// Dodaj FluentValidation
-builder.Services.AddFluentValidationAutoValidation();
-builder.Services.AddFluentValidationClientsideAdapters();
-builder.Services.AddValidatorsFromAssemblyContaining<RentalValidator>();
-
-// Dodaj kontrolery i widoki
-builder.Services.AddControllersWithViews();
+// Configure cookies for SameSite
+builder.Services.Configure<CookiePolicyOptions>(options =>
+{
+    options.MinimumSameSitePolicy = SameSiteMode.Strict;
+    options.HttpOnly = Microsoft.AspNetCore.CookiePolicy.HttpOnlyPolicy.Always;
+    options.Secure = CookieSecurePolicy.Always;
+});
 
 var app = builder.Build();
 
+// Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
@@ -33,7 +31,10 @@ if (!app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
+
 app.UseRouting();
+
+app.UseCookiePolicy();
 app.UseAuthorization();
 
 app.MapControllerRoute(

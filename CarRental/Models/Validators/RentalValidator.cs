@@ -1,6 +1,7 @@
 ﻿using FluentValidation;
 using Projekt_strona.Models;
 using Projekt_strona.Repositories;
+using System;
 
 namespace Projekt_strona.Models.Validators
 {
@@ -11,7 +12,11 @@ namespace Projekt_strona.Models.Validators
             RuleFor(r => r.CarId)
                 .GreaterThan(0)
                 .WithMessage("Wybierz samochód.")
-                .Must(carId => carRepository.GetCarById(carId) != null)
+                .Must(carId =>
+                {
+                    var car = carRepository.GetCarById(carId);
+                    return car != null;
+                })
                 .WithMessage("Wybrany samochód nie istnieje.")
                 .Must(carId =>
                 {
@@ -26,7 +31,7 @@ namespace Projekt_strona.Models.Validators
                 .Must(customerId => customerRepository.GetCustomerById(customerId) != null)
                 .WithMessage("Wybrany klient nie istnieje.");
 
-            RuleFor(r => r.RentDate)
+            RuleFor(r => r.RentalDate)
                 .NotEmpty()
                 .WithMessage("Data wypożyczenia jest wymagana.")
                 .GreaterThanOrEqualTo(DateTime.Today)

@@ -1,89 +1,119 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Projekt_strona.Data;
 using Projekt_strona.Models;
 using Projekt_strona.Repositories;
+using System.Linq;
 
 namespace Projekt_strona.Controllers
 {
     public class RentalsController : Controller
     {
+        private readonly IRentalRepository _rentalRepository;
         private readonly ICarRepository _carRepository;
         private readonly ICustomerRepository _customerRepository;
-        private readonly CarRentalsContext _context;
 
-        public RentalsController(ICarRepository carRepository, ICustomerRepository customerRepository, CarRentalsContext context)
+        public RentalsController(IRentalRepository rentalRepository, ICarRepository carRepository, ICustomerRepository customerRepository)
         {
+            _rentalRepository = rentalRepository;
             _carRepository = carRepository;
             _customerRepository = customerRepository;
-            _context = context;
         }
 
+        // GET: /Rentals/Index
         public IActionResult Index()
         {
-            var rentals = _context.Rentals.ToList();
+            var rentals = _rentalRepository.GetAllRentals();
+            ViewBag.AvailableCars = _carRepository.GetAllCars().ToList();
+            ViewBag.Customers = _customerRepository.GetAllCustomers().ToList();
             return View(rentals);
         }
 
+        // GET: /Rentals/Create
         [HttpGet]
         public IActionResult Create()
         {
             ViewBag.AvailableCars = _carRepository.GetAllCars().Where(c => c.IsAvailable).ToList();
             ViewBag.Customers = _customerRepository.GetAllCustomers().ToList();
-            return View(new Rental { RentDate = DateTime.Now });
+            return View();
         }
 
+        // POST: /Rentals/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
         public IActionResult Create(Rental rental)
         {
+            Console.WriteLine($"Rental Create POST: CarId={rental.CarId}, CustomerId={rental.CustomerId}, RentalDate={rental.RentalDate}");
             if (ModelState.IsValid)
             {
                 var car = _carRepository.GetCarById(rental.CarId);
-                if (car != null && car.IsAvailable)
+                if (car == null || !car.IsAvailable)
                 {
-                    car.IsAvailable = false;
-                    _carRepository.UpdateCar(car);
-                    rental.RentDate = DateTime.Now;
-                    _context.Rentals.Add(rental);
-                    _context.SaveChanges();
-                    TempData["Success"] = "Samochód został wypożyczony!";
-                    return RedirectToAction("Index", "Home");
+                    ModelState.AddModelError("CarId", "Wybrany samochód nie jest dostępny.");
+                    ViewBag.AvailableCars = _carRepository.GetAllCars().Where(c => c.IsAvailable).ToList();
+                    ViewBag.Customers = _customerRepository.GetAllCustomers().ToList();
+                    return View(rental);
                 }
-                else
-                {
-                    ModelState.AddModelError("", "Wybrany samochód nie jest dostępny.");
-                }
+
+                car.IsAvailable = false;
+                _carRepository.UpdateCar(car);
+                _rentalRepository.AddRental(rental);
+                TempData["Success"] = "Rezerwacja została dodana!";
+                return RedirectToAction("Index");
             }
-            else
+
+            // Debugowanie błędów walidacji
+            foreach (var entry in ModelState)
             {
-                var errors = ModelState.Values.SelectMany(v => v.Errors).Select(e => e.ErrorMessage);
-                foreach (var error in errors)
+                Console.WriteLine($"Field: {entry.Key}");
+                foreach (var error in entry.Value.Errors)
                 {
-                    ModelState.AddModelError("", error);
+                    Console.WriteLine($"Error: {error.ErrorMessage}");
                 }
             }
+
             ViewBag.AvailableCars = _carRepository.GetAllCars().Where(c => c.IsAvailable).ToList();
             ViewBag.Customers = _customerRepository.GetAllCustomers().ToList();
             return View(rental);
         }
 
+        // GET: /Rentals/Edit
+        [HttpGet]
+        public IActionResult Edit(int id)
+        {
+            var rental = _rentalRepository.GetRentalById(id);
+            if (rental == null)
+            {
+                TempData["Error"] = "Rezerwacja nie istnieje.";
+                return RedirectToAction("Index");
+            }
+            ViewBag.AvailableCars = _carRepository.GetAllCars().Where(c => c.IsAvailable || c.Id == rental.CarId).ToList();
+            ViewBag.Customers = _customerRepository.GetAllCustomers().ToList();
+            return View(rental);
+        }
+
+        // POST: /Rentals/Edit
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Return(int rentalId)
+        public IActionResult Edit(Rental rental)
         {
-            var rental = _context.Rentals.FirstOrDefault(r => r.Id == rentalId);
-            if (rental != null && rental.ReturnDate == null)
+            if (ModelState.IsValid)
             {
-                rental.ReturnDate = DateTime.Now;
                 var car = _carRepository.GetCarById(rental.CarId);
-                if (car != null)
+                if (car == null)
                 {
-                    car.IsAvailable = true;
-                    _carRepository.UpdateCar(car);
+                    ModelState.AddModelError("CarId", "Wybrany samochód nie istnieje.");
+                    ViewBag.AvailableCars = _carRepository.GetAllCars().Where(c => c.IsAvailable || c.Id == rental.CarId).ToList();
+                    ViewBag.Customers = _customerRepository.GetAllCustomers().ToList();
+                    return View(rental);
                 }
-                _context.SaveChanges();
+
+                _rentalRepository.UpdateRental(rental);
+                TempData["Success"] = "Rezerwacja została zaktualizowana!";
+                return RedirectToAction("Index");
             }
-            return RedirectToAction("Index");
+
+            ViewBag.AvailableCars = _carRepository.GetAllCars().Where(c => c.IsAvailable || c.Id == rental.CarId).ToList();
+            ViewBag.Customers = _customerRepository.GetAllCustomers().ToList();
+            return View(rental);
         }
     }
-}   
+}

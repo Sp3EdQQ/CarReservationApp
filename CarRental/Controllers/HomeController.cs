@@ -20,7 +20,6 @@ namespace Projekt_strona.Controllers
         {
             var cars = _carRepository.GetAllCars();
             var paginatedCars = PaginatedList<Car>.Create(cars, carsPageIndex, carsPageSize);
-
             var customers = _customerRepository.GetAllCustomers();
             var paginatedCustomers = PaginatedList<Customer>.Create(customers, customerPageIndex, customerPageSize);
 
@@ -31,6 +30,11 @@ namespace Projekt_strona.Controllers
             };
 
             return View(viewModel);
+        }
+
+        public IActionResult Error()
+        {
+            return View();
         }
     }
 }

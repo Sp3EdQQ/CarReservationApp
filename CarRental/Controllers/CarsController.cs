@@ -13,12 +13,21 @@ namespace Projekt_strona.Controllers
             _carRepository = carRepository;
         }
 
+        // GET: /Cars/Index
+        public IActionResult Index()
+        {
+            var cars = _carRepository.GetAllCars();
+            return View(cars);
+        }
+
+        // GET: /Cars/Create
         [HttpGet]
         public IActionResult Create()
         {
             return View();
         }
 
+        // POST: /Cars/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
         public IActionResult Create(Car car)
@@ -26,22 +35,26 @@ namespace Projekt_strona.Controllers
             if (ModelState.IsValid)
             {
                 _carRepository.AddCar(car);
-                return RedirectToAction("Index", "Home");
+                TempData["Success"] = "Samochód został dodany!";
+                return RedirectToAction("Index");
             }
             return View(car);
         }
 
+        // GET: /Cars/Edit
         [HttpGet]
         public IActionResult Edit(int id)
         {
             var car = _carRepository.GetCarById(id);
             if (car == null)
             {
-                return NotFound();
+                TempData["Error"] = "Samochód nie istnieje.";
+                return RedirectToAction("Index");
             }
             return View(car);
         }
 
+        // POST: /Cars/Edit
         [HttpPost]
         [ValidateAntiForgeryToken]
         public IActionResult Edit(Car car)
@@ -49,17 +62,10 @@ namespace Projekt_strona.Controllers
             if (ModelState.IsValid)
             {
                 _carRepository.UpdateCar(car);
-                return RedirectToAction("Index", "Home");
+                TempData["Success"] = "Samochód został zaktualizowany!";
+                return RedirectToAction("Index");
             }
             return View(car);
-        }
-
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public IActionResult Delete(int id)
-        {
-            _carRepository.DeleteCar(id);
-            return RedirectToAction("Index", "Home");
         }
     }
 }

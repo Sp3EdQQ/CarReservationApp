@@ -1,0 +1,45 @@
+﻿@model IEnumerable<Projekt_strona.Models.Car>
+
+@{
+    ViewData["Title"] = "Lista samochodów";
+}
+
+<h2>Lista samochodów</h2>
+
+@if (TempData["Success"] != null)
+{
+    <div class="alert alert-success">@TempData["Success"]</div>
+}
+
+@if (TempData["Error"] != null)
+{
+    <div class="alert alert-danger">@TempData["Error"]</div>
+}
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Marka</th>
+            <th>Model</th>
+            <th>Rok</th>
+            <th>Dostępny</th>
+            <th>Akcje</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var car in Model)
+        {
+            <tr>
+                <td>@car.Make</td>
+                <td>@car.Model</td>
+                <td>@car.Year</td>
+                <td>@(car.IsAvailable ? "Tak" : "Nie")</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@car.Id" class="btn btn-primary btn-sm">Edytuj</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a asp-action="Create" class="btn btn-success">Dodaj nowy samochód</a>
