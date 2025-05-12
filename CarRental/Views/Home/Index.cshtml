@@ -4,7 +4,7 @@
     ViewData["Title"] = "Home Page";
 }
 
-<h2>Samochody</h2>
+<h2>Samochody dostępne do wynajęcia</h2>
 <table class="table">
     <thead>
         <tr>
@@ -17,12 +17,15 @@
     <tbody>
         @foreach (var car in Model.Cars.Items)
         {
-            <tr>
-                <td>@car.Make</td>
-                <td>@car.Model</td>
-                <td>@car.Year</td>
-                <td>@(car.IsAvailable ? "Tak" : "Nie")</td>
-            </tr>
+	        if (@car.IsAvailable)
+	        {
+		        <tr>
+			        <td>@car.Make</td>
+			        <td>@car.Model</td>
+			        <td>@car.Year</td>
+			        <td>@(car.IsAvailable ? "Tak" : "Nie")</td>
+		        </tr>    
+	        }
         }
     </tbody>
 </table>
@@ -35,37 +38,5 @@
     @if (Model.Cars.HasNextPage)
     {
         <a asp-action="Index" asp-route-carsPageIndex="@(Model.Cars.PageIndex + 1)" asp-route-carsPageSize="@Model.Cars.PageSize" asp-route-customerPageIndex="@Model.Customers.PageIndex" asp-route-customerPageSize="@Model.Customers.PageSize" class="btn btn-primary">Następna</a>
-    }
-</div>
-
-<h2>Klienci</h2>
-<table class="table">
-    <thead>
-        <tr>
-            <th>Imię</th>
-            <th>Nazwisko</th>
-            <th>Telefon</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var customer in Model.Customers.Items)
-        {
-            <tr>
-                <td>@customer.FirstName</td>
-                <td>@customer.LastName</td>
-                <td>@customer.PhoneNumber</td>
-            </tr>
-        }
-    </tbody>
-</table>
-
-<div>
-    @if (Model.Customers.HasPreviousPage)
-    {
-        <a asp-action="Index" asp-route-customerPageIndex="@(Model.Customers.PageIndex - 1)" asp-route-customerPageSize="@Model.Customers.PageSize" asp-route-carsPageIndex="@Model.Cars.PageIndex" asp-route-carsPageSize="@Model.Cars.PageSize" class="btn btn-primary">Poprzednia</a>
-    }
-    @if (Model.Customers.HasNextPage)
-    {
-        <a asp-action="Index" asp-route-customerPageIndex="@(Model.Customers.PageIndex + 1)" asp-route-customerPageSize="@Model.Customers.PageSize" asp-route-carsPageIndex="@Model.Cars.PageIndex" asp-route-carsPageSize="@Model.Cars.PageSize" class="btn btn-primary">Następna</a>
     }
 </div>

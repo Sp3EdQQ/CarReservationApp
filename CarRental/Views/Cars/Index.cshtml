@@ -35,7 +35,12 @@
                 <td>@car.Year</td>
                 <td>@(car.IsAvailable ? "Tak" : "Nie")</td>
                 <td>
-                    <a asp-action="Edit" asp-route-id="@car.Id" class="btn btn-primary btn-sm">Edytuj</a>
+	                <a asp-action="Edit" asp-route-id="@car.Id" class="btn btn-primary btn-sm">Edytuj</a>
+                </td>
+                <td>
+                    <a asp-action="Delete" asp-route-id="@car.Id" class="btn btn-danger btn-sm">
+		                Usuń
+	                </a>
                 </td>
             </tr>
         }

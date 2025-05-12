@@ -67,5 +67,35 @@ namespace Projekt_strona.Controllers
             }
             return View(car);
         }
+
+        // GET: /Cars/Delete
+        [HttpGet]
+        public IActionResult Delete(int id)
+        {
+            var car = _carRepository.GetCarById(id);
+            if (car == null)
+            {
+                TempData["Error"] = "Samochód nie istnieje.";
+                return RedirectToAction("Index");
+            }
+            return View(car);
+        }
+
+        // POST: /Cars/Delete
+        [HttpPost, ActionName("Delete")]
+        [ValidateAntiForgeryToken]
+
+        public IActionResult DeleteConfirmed(int id)
+        {
+            if (ModelState.IsValid)
+            {
+                _carRepository.DeleteCar(id);
+                TempData["Success"] = "Samochód został usunięty!";
+                return RedirectToAction("Index");
+            }
+            TempData["Error"] = "Nie można usunąć samochodu.";
+            return RedirectToAction("Index");
+        }
+
     }
 }

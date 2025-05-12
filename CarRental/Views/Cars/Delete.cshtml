@@ -1,0 +1,28 @@
+﻿@model Projekt_strona.Models.Car
+
+@{
+	ViewData["Title"] = "Usuń samochód";
+}
+
+<h2>Usuń samochód</h2>
+
+<h3>Czy na pewno chcesz usunąć ten samochód?</h3>
+
+<div>
+	<h4>@Model.Make @Model.Model</h4>
+	<dl class="row">
+		<dt class="col-sm-2">Marka</dt>
+		<dd class="col-sm-10">@Model.Make</dd>
+		<dt class="col-sm-2">Model</dt>
+		<dd class="col-sm-10">@Model.Model</dd>
+		<dt class="col-sm-2">Rok produkcji</dt>
+		<dd class="col-sm-10">@Model.Year</dd>
+	</dl>
+
+	<form asp-action="Delete" method="post">
+		<input type="hidden" name="id" value="@Model.Id" />
+		<button type="submit" class="btn btn-danger">Usuń</button>
+		<a asp-action="Index" class="btn btn-secondary">Wróć</a>
+	</form>
+
+</div>
