@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Projekt_strona")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aa56671ea6b7c1478b4723c8776e2fec27f2e228")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7946b3ddd2d5e292f130b82169d6ce8f09f6fcc0")]
 [assembly: System.Reflection.AssemblyProductAttribute("Projekt_strona")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Projekt_strona")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

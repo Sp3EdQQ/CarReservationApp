@@ -1,5 +1,7 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using AutoMapper;
+using Microsoft.AspNetCore.Mvc;
 using Projekt_strona.Models;
+using Projekt_strona.Models.Dto;
 using Projekt_strona.Repositories;
 
 namespace Projekt_strona.Controllers
@@ -8,18 +10,21 @@ namespace Projekt_strona.Controllers
     {
         private readonly ICarRepository _carRepository;
         private readonly IRentalRepository _rentalRepository;
+        private readonly IMapper _mapper;
 
-        public CarsController(ICarRepository carRepository, IRentalRepository rentalRepository)
+        public CarsController(ICarRepository carRepository, IRentalRepository rentalRepository, IMapper mapper)
         {
             _carRepository = carRepository;
             _rentalRepository = rentalRepository;
+            _mapper = mapper;
         }
 
         // GET: /Cars/Index
         public IActionResult Index()
         {
             var cars = _carRepository.GetAllCars();
-            return View(cars);
+            var carsDto = _mapper.Map<List<CarDto>>(cars);
+            return View(carsDto);
         }
 
         // GET: /Cars/Create

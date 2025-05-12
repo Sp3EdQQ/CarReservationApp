@@ -3,12 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Barto\\source\\repos\\CarReservationApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|CarRental\\Projekt_strona.csproj|c:\\users\\barto\\source\\repos\\carreservationapp\\carrental\\views\\customers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|CarRental\\Projekt_strona.csproj|solutionrelative:carrental\\views\\customers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|CarRental\\Projekt_strona.csproj|c:\\users\\barto\\source\\repos\\carreservationapp\\carrental\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|CarRental\\Projekt_strona.csproj|solutionrelative:carrental\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|CarRental\\Projekt_strona.csproj|c:\\users\\barto\\source\\repos\\carreservationapp\\carrental\\views\\cars\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|CarRental\\Projekt_strona.csproj|solutionrelative:carrental\\views\\cars\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|CarRental\\Projekt_strona.csproj|c:\\users\\barto\\source\\repos\\carreservationapp\\carrental\\data\\carrentalscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|CarRental\\Projekt_strona.csproj|solutionrelative:carrental\\data\\carrentalscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|CarRental\\Projekt_strona.csproj|c:\\users\\barto\\source\\repos\\carreservationapp\\carrental\\models\\identity\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|CarRental\\Projekt_strona.csproj|solutionrelative:carrental\\models\\identity\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|CarRental\\Projekt_strona.csproj|c:\\users\\barto\\source\\repos\\carreservationapp\\carrental\\controllers\\carscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|CarRental\\Projekt_strona.csproj|solutionrelative:carrental\\controllers\\carscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|CarRental\\Projekt_strona.csproj|c:\\users\\barto\\source\\repos\\carreservationapp\\carrental\\mappings\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|CarRental\\Projekt_strona.csproj|solutionrelative:carrental\\mappings\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|CarRental\\Projekt_strona.csproj|c:\\users\\barto\\source\\repos\\carreservationapp\\carrental\\views\\customers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2EFD44D4-3DE8-475F-A881-A6DC3330C830}|CarRental\\Projekt_strona.csproj|solutionrelative:carrental\\views\\customers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 287,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,28 +50,80 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CarRentalsContext.cs",
+              "DocumentMoniker": "C:\\Users\\Barto\\source\\repos\\CarReservationApp\\CarRental\\Data\\CarRentalsContext.cs",
+              "RelativeDocumentMoniker": "CarRental\\Data\\CarRentalsContext.cs",
+              "ToolTip": "C:\\Users\\Barto\\source\\repos\\CarReservationApp\\CarRental\\Data\\CarRentalsContext.cs",
+              "RelativeToolTip": "CarRental\\Data\\CarRentalsContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T21:07:01.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\Barto\\source\\repos\\CarReservationApp\\CarRental\\Models\\Identity\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "CarRental\\Models\\Identity\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\Barto\\source\\repos\\CarReservationApp\\CarRental\\Models\\Identity\\ApplicationUser.cs",
+              "RelativeToolTip": "CarRental\\Models\\Identity\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T20:57:31.614Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CarsController.cs",
+              "DocumentMoniker": "C:\\Users\\Barto\\source\\repos\\CarReservationApp\\CarRental\\Controllers\\CarsController.cs",
+              "RelativeDocumentMoniker": "CarRental\\Controllers\\CarsController.cs",
+              "ToolTip": "C:\\Users\\Barto\\source\\repos\\CarReservationApp\\CarRental\\Controllers\\CarsController.cs",
+              "RelativeToolTip": "CarRental\\Controllers\\CarsController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAuwBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T20:26:56.523Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Barto\\source\\repos\\CarReservationApp\\CarRental\\Program.cs",
+              "RelativeDocumentMoniker": "CarRental\\Program.cs",
+              "ToolTip": "C:\\Users\\Barto\\source\\repos\\CarReservationApp\\CarRental\\Program.cs",
+              "RelativeToolTip": "CarRental\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T20:25:42.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Barto\\source\\repos\\CarReservationApp\\CarRental\\Mappings\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "CarRental\\Mappings\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\Barto\\source\\repos\\CarReservationApp\\CarRental\\Mappings\\MappingProfile.cs",
+              "RelativeToolTip": "CarRental\\Mappings\\MappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T20:21:16.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Barto\\source\\repos\\CarReservationApp\\CarRental\\Views\\Customers\\Index.cshtml",
               "RelativeDocumentMoniker": "CarRental\\Views\\Customers\\Index.cshtml",
               "ToolTip": "C:\\Users\\Barto\\source\\repos\\CarReservationApp\\CarRental\\Views\\Customers\\Index.cshtml",
               "RelativeToolTip": "CarRental\\Views\\Customers\\Index.cshtml",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-05-12T19:41:50.909Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Barto\\source\\repos\\CarReservationApp\\CarRental\\Views\\Cars\\Index.cshtml",
-              "RelativeDocumentMoniker": "CarRental\\Views\\Cars\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Barto\\source\\repos\\CarReservationApp\\CarRental\\Views\\Cars\\Index.cshtml",
-              "RelativeToolTip": "CarRental\\Views\\Cars\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-12T19:41:15.341Z",
               "EditorCaption": ""
             }
           ]

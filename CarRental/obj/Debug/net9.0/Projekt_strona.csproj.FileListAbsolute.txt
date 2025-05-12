@@ -229,3 +229,10 @@ C:\Users\Barto\source\repos\CarReservationApp\CarRental\obj\Debug\net9.0\Projekt
 C:\Users\Barto\source\repos\CarReservationApp\CarRental\obj\Debug\net9.0\Projekt_strona.genruntimeconfig.cache
 C:\Users\Barto\source\repos\CarReservationApp\CarRental\obj\Debug\net9.0\ref\Projekt_strona.dll
 C:\Users\Barto\source\repos\CarReservationApp\CarRental\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+C:\Users\Barto\source\repos\CarReservationApp\CarRental\bin\Debug\net9.0\AutoMapper.dll
+C:\Users\Barto\source\repos\CarReservationApp\CarRental\bin\Debug\net9.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Barto\source\repos\CarReservationApp\CarRental\bin\Debug\net9.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Barto\source\repos\CarReservationApp\CarRental\bin\Debug\net9.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Barto\source\repos\CarReservationApp\CarRental\bin\Debug\net9.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\Barto\source\repos\CarReservationApp\CarRental\bin\Debug\net9.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\Barto\source\repos\CarReservationApp\CarRental\bin\Debug\net9.0\Microsoft.Extensions.Identity.Stores.dll
