@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.EntityFrameworkCore;
 using Projekt_strona.Data;
 using Projekt_strona.Mappings;
@@ -11,18 +12,27 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<CarRentalsContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+// Add Identity
+builder.Services.AddIdentity<ApplicationUser, IdentityRole>(options =>
+    {
+        options.SignIn.RequireConfirmedAccount = true;  // Mo¿esz dostosowaæ to ustawienie
+    })
+    .AddEntityFrameworkStores<CarRentalsContext>()
+    .AddDefaultTokenProviders();
+
+// Repositories
 builder.Services.AddScoped<ICarRepository, CarRepository>();
 builder.Services.AddScoped<IRentalRepository, RentalRepository>();
 builder.Services.AddScoped<ICustomerRepository, CustomerRepository>();
 
-// Add Automaper
+// Add Automapper
 builder.Services.AddAutoMapper(typeof(MappingProfile));
 
-// Add Identity
-builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
-    .AddEntityFrameworkStores<CarRentalsContext>()
-    .AddDefaultTokenProviders();
+// Razor Pages
+builder.Services.AddRazorPages();
 
+builder.Services.AddTransient<IEmailSender, EmailSender>();
 
 
 // Configure cookies for SameSite
@@ -47,12 +57,12 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
-app.UseCookiePolicy();
-app.UseAuthorization();
-
 app.UseAuthentication();
 app.UseAuthorization();
 
+app.UseCookiePolicy();
+
+app.MapRazorPages(); // Near MapControllerRoute
 
 app.MapControllerRoute(
     name: "default",
