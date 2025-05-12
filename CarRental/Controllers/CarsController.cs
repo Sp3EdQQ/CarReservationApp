@@ -7,10 +7,12 @@ namespace Projekt_strona.Controllers
     public class CarsController : Controller
     {
         private readonly ICarRepository _carRepository;
+        private readonly IRentalRepository _rentalRepository;
 
-        public CarsController(ICarRepository carRepository)
+        public CarsController(ICarRepository carRepository, IRentalRepository rentalRepository)
         {
             _carRepository = carRepository;
+            _rentalRepository = rentalRepository;
         }
 
         // GET: /Cars/Index
@@ -84,17 +86,25 @@ namespace Projekt_strona.Controllers
         // POST: /Cars/Delete
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
-
         public IActionResult DeleteConfirmed(int id)
         {
+            // Sprawdź, czy samochód nie ma aktywnych wypożyczeń
+            var activeRentals = _rentalRepository.GetAllRentals().Any(r => r.CarId == id && r.ReturnDate == null);
+            if (activeRentals)
+            {
+                TempData["Error"] = "Nie można usunąć samochodu z aktywnymi wypożyczeniami.";
+                return RedirectToAction("Index");
+            }
+
             if (ModelState.IsValid)
             {
                 _carRepository.DeleteCar(id);
                 TempData["Success"] = "Samochód został usunięty!";
                 return RedirectToAction("Index");
             }
-            TempData["Error"] = "Nie można usunąć samochodu.";
+            TempData["Error"] = "Podczas usuwania samochodu wystąpił błąd.";
             return RedirectToAction("Index");
+
         }
 
     }
