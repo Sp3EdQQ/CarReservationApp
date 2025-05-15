@@ -1,9 +1,11 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Projekt_strona.Models;
 using Projekt_strona.Repositories;
 
 namespace Projekt_strona.Controllers
 {
+    [Authorize(Roles = "Customer")]
     public class CustomersController : Controller
     {
         private readonly ICustomerRepository _customerRepository;
@@ -16,6 +18,7 @@ namespace Projekt_strona.Controllers
         }
 
         // GET: /Customers/Index
+        [AllowAnonymous]
         public IActionResult Index()
         {
             var customers = _customerRepository.GetAllCustomers();
@@ -42,9 +45,10 @@ namespace Projekt_strona.Controllers
             }
             return View(customer);
         }
-
         // GET: /Customers/Edit
+        
         [HttpGet]
+        [Authorize(Roles = "Admin")]
         public IActionResult Edit(int id)
         {
             var customer = _customerRepository.GetCustomerById(id);
@@ -59,6 +63,7 @@ namespace Projekt_strona.Controllers
         // POST: /Customers/Edit
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Admin")]
         public IActionResult Edit(Customer customer)
         {
             if (ModelState.IsValid)
@@ -72,6 +77,7 @@ namespace Projekt_strona.Controllers
 
         // GET: /Customers/Delete
         [HttpGet]
+        [Authorize(Roles = "Admin")]
         public IActionResult Delete(int id)
         {
             var customer = _customerRepository.GetCustomerById(id);
@@ -86,6 +92,7 @@ namespace Projekt_strona.Controllers
         // POST: /Customers/Delete
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Admin")]
         public IActionResult DeleteConfirmed(int id)
         {
             var customer = _customerRepository.GetCustomerById(id);
@@ -95,7 +102,6 @@ namespace Projekt_strona.Controllers
                 return RedirectToAction("Index");
             }
 
-            // Sprawdź, czy klient nie ma aktywnych wypożyczeń
             var activeRentals = _rentalRepository.GetAllRentals().Any(r => r.CustomerId == id && r.ReturnDate == null);
             if (activeRentals)
             {

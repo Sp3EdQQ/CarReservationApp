@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Projekt_strona.Models;
 using Projekt_strona.Models.ViewModels;
 using Projekt_strona.Repositories;
@@ -15,7 +16,7 @@ namespace Projekt_strona.Controllers
             _carRepository = carRepository;
             _customerRepository = customerRepository;
         }
-
+        [AllowAnonymous]
         public IActionResult Index(int carsPageIndex = 1, int carsPageSize = 5, int customerPageIndex = 1, int customerPageSize = 5)
         {
             var cars = _carRepository.GetAllCars();
