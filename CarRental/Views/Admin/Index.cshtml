@@ -1,0 +1,38 @@
+﻿@{
+	ViewData["Title"] = "Dashboard";
+	Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h1 class="mb-4">Panel Administracyjny</h1>
+
+<div class="row">
+	<div class="col-md-4">
+		<div class="card text-white bg-primary mb-3">
+			<div class="card-header">Klienci</div>
+			<div class="card-body">
+				<p class="card-text">Zarządzaj klientami.</p>
+				<a href="/Admin/AdminCustomers" class="btn btn-light btn-sm">Przejdź</a>
+			</div>
+		</div>
+	</div>
+
+	<div class="col-md-4">
+		<div class="card text-white bg-warning mb-3">
+			<div class="card-header">Samochody</div>
+			<div class="card-body">
+				<p class="card-text">Zarządzaj flotą.</p>
+				<a href="/Admin/AdminCars" class="btn btn-light btn-sm">Przejdź</a>
+			</div>
+		</div>
+	</div>
+
+	<div class="col-md-4">
+		<div class="card text-white bg-info mb-3">
+			<div class="card-header">Wypożyczenia</div>
+			<div class="card-body">
+				<p class="card-text">Podglądaj wypożyczenia.</p>
+				<a href="#" class="btn btn-light btn-sm">Przejdź</a>
+			</div>
+		</div>
+	</div>
+</div>

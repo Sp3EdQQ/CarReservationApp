@@ -50,6 +50,17 @@ using (var scope = app.Services.CreateScope())
 {
     var services = scope.ServiceProvider;
     await RoleInitializer.SeedRolesAsync(services);
+
+
+
+    var userManager = services.GetRequiredService<UserManager<ApplicationUser>>();
+    var user = await userManager.FindByEmailAsync("bartek@gmail.com"); // <- wpisz adres konta admina
+
+    if (user != null && !(await userManager.IsInRoleAsync(user, "Admin")))
+    {
+        await userManager.AddToRoleAsync(user, "Admin");
+    }
+
 }
 
 
