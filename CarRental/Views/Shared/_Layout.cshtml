@@ -7,66 +7,12 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-            <a class="navbar-brand" asp-controller="Home" asp-action="Index">Wypożyczalnia</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" asp-controller="Customers" asp-action="Index">Klienci</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" asp-controller="Cars" asp-action="Index">Samochody</a>
-                    </li>
-                    <li class="nav-item">
-	                    <a class="nav-link" asp-controller="Rentals" asp-action="Index">Rezerwacje</a>
-                    </li>
-                    <li>
-	                    <a href="/Admin/Index" class="nav-link">Panel Admina</a>
-                    </li>
-                </ul>
-
-                <ul class="navbar-nav ml-auto">
-                    @if (User.Identity.IsAuthenticated)
-                    {
-                        <li class="nav-item">
-                            <span class="navbar-text text-light mr-2">Witaj, @User.Identity.Name!</span>
-                        </li>
-                        <li class="nav-item">
-                            <form class="form-inline" asp-area="Identity" asp-page="/Account/Logout" method="post" id="logoutForm">
-                                <button type="submit" class="btn btn-outline-light btn-sm">Wyloguj</button>
-                            </form>
-                        </li>
-                    }
-                    else
-                    {
-                        <li class="nav-item">
-                            <a class="nav-link" asp-area="Identity" asp-page="/Account/Login">Zaloguj</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" asp-area="Identity" asp-page="/Account/Register">Rejestracja</a>
-                        </li>
-                    }
-                </ul>
-            </div>
-        </nav>
-    </header>
 
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
     </div>
-
-    <footer class="border-top footer text-muted mt-3">
-        <div class="container">
-            &copy; 2025 - Wypożyczalnia Samochodów
-        </div>
-    </footer>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>

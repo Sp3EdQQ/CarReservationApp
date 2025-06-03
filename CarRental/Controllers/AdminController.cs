@@ -25,12 +25,24 @@ namespace Projekt_strona.Controllers
 
         [HttpGet]
         public IActionResult AdminCustomers()
-        {
+        {   
             var customers = _customerRepository.GetAllCustomers();
             return View(customers);
         }
+        [HttpGet]
+        public IActionResult AdminRentals()
+        {
+            var rentals = _rentalRepository.GetAllRentals();
+            return View(rentals);
+        }
+        [HttpGet]
+        public IActionResult AdminCars()
+        {
+            var cars = _carRepository.GetAllCars();
+            return View(cars);
+        }
 
-       
+
     }
 }
 
